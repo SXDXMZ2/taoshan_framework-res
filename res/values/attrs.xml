@@ -1930,4 +1930,5 @@
     <attr name="primaryUserOnly" format="boolean" />
     <attr name="webviewchromium_select_dialog_multichoice" format="reference" />
     <attr name="webviewchromium_select_dialog_singlechoice" format="reference" />
+    <attr name="listChoiceIndicatorSingleNoAnimation" format="reference" />
 </resources>

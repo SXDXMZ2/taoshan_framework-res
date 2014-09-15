@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="0" android:drawable="@drawable/semc_btn_radio_holo_light_background" />
+    <item android:duration="0" android:drawable="@drawable/semc_btn_radio_holo_light_indicator" />
+</layer-list>

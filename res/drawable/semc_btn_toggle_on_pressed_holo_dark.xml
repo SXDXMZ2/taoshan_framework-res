@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/semc_btn_toggle_on_pressed_holo_dark_normal" />
+    <item android:drawable="@drawable/semc_btn_toggle_on_enabled_holo_dark_colored" />
+</layer-list>

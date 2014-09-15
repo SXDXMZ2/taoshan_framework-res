@@ -1156,6 +1156,7 @@
     <public type="attr" name="primaryUserOnly" id="0x01010481" />
     <public type="attr" name="webviewchromium_select_dialog_multichoice" id="0x01010482" />
     <public type="attr" name="webviewchromium_select_dialog_singlechoice" id="0x01010483" />
+    <public type="attr" name="listChoiceIndicatorSingleNoAnimation" id="0x01010484" />
     <public type="id" name="background" id="0x01020000" />
     <public type="id" name="checkbox" id="0x01020001" />
     <public type="id" name="content" id="0x01020002" />
@@ -2888,6 +2889,8 @@
     <public type="style" name="Theme.DeviceDefault.SearchBar" id="0x0103031d" />
     <public type="style" name="Theme.DeviceDefault.Light.SearchBar" id="0x0103031e" />
     <public type="style" name="Theme.DeviceDefault.Dialog.NoFrame" id="0x0103031f" />
+    <public type="style" name="TextAppearance.DeviceDefault.Widget.Switch" id="0x01030322" />
+    <public type="style" name="Widget.DeviceDefault.TabText" id="0x01030323" />
     <public type="style" name="webviewchromium_AutofillPopupWindow" id="0x01030320" />
     <public type="style" name="webviewchromium_SelectPopupDialog" id="0x01030321" />
     <public type="string" name="cancel" id="0x01040000" />
@@ -4653,6 +4656,10 @@
     <public type="string" name="webviewchromium_profiler_stopped_toast" id="0x010406e0" />
     <public type="string" name="webviewchromium_profiler_no_storage_toast" id="0x010406e1" />
     <public type="string" name="webviewchromium_profiler_error_toast" id="0x010406e2" />
+    <public type="string" name="permlab_smallapp" id="0x010406e3" />
+    <public type="string" name="permdesc_smallapp" id="0x010406e4" />
+    <public type="string" name="permlab_taskSwitcherPluginView" id="0x010406e5" />
+    <public type="string" name="permdesc_taskSwitcherPluginView" id="0x010406e6" />
     <public type="dimen" name="app_icon_size" id="0x01050000" />
     <public type="dimen" name="thumbnail_height" id="0x01050001" />
     <public type="dimen" name="thumbnail_width" id="0x01050002" />
@@ -4931,6 +4938,25 @@
     <public type="color" name="tab_indicator_text_v4" id="0x01060086" />
     <public type="color" name="tertiary_text_holo_dark" id="0x01060087" />
     <public type="color" name="tertiary_text_holo_light" id="0x01060088" />
+    <public type="color" name="black_dark" id="0x01060089" />
+    <public type="color" name="blue_tab" id="0x0106008a" />
+    <public type="color" name="somc_theme_accent_color_dark" id="0x0106008b" />
+    <public type="color" name="somc_theme_accent_color_light" id="0x0106008c" />
+    <public type="color" name="semc_theme_accent_color" id="0x0106008d" />
+    <public type="color" name="semc_theme_illumination_color" id="0x0106008e" />
+    <public type="color" name="somc_accent_color_neutral" id="0x0106008f" />
+    <public type="color" name="accent_color_dark" id="0x01060090" />
+    <public type="color" name="accent_color_light" id="0x01060091" />
+    <public type="color" name="accent_color_neutral" id="0x01060092" />
+    <public type="color" name="accent_color_illumination" id="0x01060093" />
+    <public type="color" name="somc_quick_settings_accent_color" id="0x01060094" />
+    <public type="color" name="semc_widget_text_color_dark" id="0x01060095" />
+    <public type="color" name="semc_widget_text_color_light" id="0x01060096" />
+    <public type="color" name="semc_widget_text_color_tabs_dark" id="0x01060097" />
+    <public type="color" name="semc_widget_text_color_tabs_light" id="0x01060098" />
+    <public type="color" name="switch_text_color" id="0x01060099" />
+    <public type="color" name="text_tab_selector" id="0x0106009a" />
+    <public type="color" name="widget_text_color_light" id="0x0106009b" />
     <public type="array" name="emailAddressTypes" id="0x01070000" />
     <public type="array" name="imProtocols" id="0x01070001" />
     <public type="array" name="organizationTypes" id="0x01070002" />
@@ -5006,6 +5032,18 @@
     <public type="drawable" name="platlogo" id="0x010804cf" />
     <public type="drawable" name="text_cursor_holo_dark" id="0x01080659" />
     <public type="drawable" name="text_cursor_holo_light" id="0x0108065a" />
+    <public type="drawable" name="semc_btn_circle_disable" id="0x01080778" />
+    <public type="drawable" name="semc_btn_circle_disable_focused" id="0x01080779" />
+    <public type="drawable" name="semc_btn_circle_normal" id="0x0108077a" />
+    <public type="drawable" name="semc_btn_circle_pressed" id="0x0108077b" />
+    <public type="drawable" name="semc_btn_circle_selected" id="0x0108077c" />
+    <public type="drawable" name="semc_btn_radio_off" id="0x010807a6" />
+    <public type="drawable" name="semc_btn_radio_off_pressed" id="0x010807b1" />
+    <public type="drawable" name="semc_btn_radio_off_selected" id="0x010807b8" />
+    <public type="drawable" name="semc_btn_radio_on" id="0x010807b9" />
+    <public type="drawable" name="semc_btn_radio_on_pressed" id="0x010807e1" />
+    <public type="drawable" name="semc_btn_radio_on_selected" id="0x010807e8" />
+    <public type="drawable" name="semc_dialog_divider_holo_colored" id="0x0108082d" />
     <public type="drawable" name="alert_dark_frame" id="0x01080000" />
     <public type="drawable" name="alert_light_frame" id="0x01080001" />
     <public type="drawable" name="btn_default" id="0x01080004" />
@@ -5281,6 +5319,8 @@
     <public type="drawable" name="tab_indicator_ab_holo" id="0x01080644" />
     <public type="drawable" name="tab_indicator_holo" id="0x01080645" />
     <public type="drawable" name="tab_indicator_v4" id="0x01080646" />
+    <public type="drawable" name="tab_selected" id="0x0108064b" />
+    <public type="drawable" name="tab_selected_focused_holo" id="0x01080650" />
     <public type="drawable" name="textfield_search" id="0x0108067f" />
     <public type="drawable" name="textfield_search_empty" id="0x01080683" />
     <public type="drawable" name="textfield_searchview_holo_dark" id="0x0108068f" />
@@ -5312,6 +5352,390 @@
     <public type="drawable" name="screen_background_holo_dark" id="0x010806b7" />
     <public type="drawable" name="notification_template_icon_bg" id="0x010806b8" />
     <public type="drawable" name="notification_template_icon_low_bg" id="0x010806b9" />
+    <public type="drawable" name="ic_navigation_ring_killtask" id="0x010806e7" />
+    <public type="drawable" name="ic_navigation_ring_power" id="0x010806ea" />
+    <public type="drawable" name="semc_btn_check" id="0x01080732" />
+    <public type="drawable" name="semc_btn_check_holo_dark" id="0x01080733" />
+    <public type="drawable" name="semc_btn_check_holo_dark_background" id="0x01080734" />
+    <public type="drawable" name="semc_btn_check_holo_dark_indicator" id="0x01080735" />
+    <public type="drawable" name="semc_btn_check_holo_light" id="0x01080736" />
+    <public type="drawable" name="semc_btn_check_holo_light_background" id="0x01080737" />
+    <public type="drawable" name="semc_btn_check_holo_light_indicator" id="0x01080738" />
+    <public type="drawable" name="semc_btn_check_off" id="0x01080739" />
+    <public type="drawable" name="semc_btn_check_off_disabled" id="0x0108073a" />
+    <public type="drawable" name="semc_btn_check_off_disabled_focused" id="0x0108073b" />
+    <public type="drawable" name="semc_btn_check_off_pressed" id="0x01080746" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_dark" id="0x01080747" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_light" id="0x0108074a" />
+    <public type="drawable" name="semc_btn_check_off_selected" id="0x0108074d" />
+    <public type="drawable" name="semc_btn_check_on" id="0x0108074e" />
+    <public type="drawable" name="semc_btn_check_on_disabled" id="0x0108074f" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused" id="0x01080750" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_dark" id="0x01080751" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_light" id="0x01080754" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_dark" id="0x01080757" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_light" id="0x0108075b" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_dark" id="0x01080761" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_light" id="0x01080764" />
+    <public type="drawable" name="semc_btn_check_on_holo_dark" id="0x01080767" />
+    <public type="drawable" name="semc_btn_check_on_holo_light" id="0x0108076b" />
+    <public type="drawable" name="semc_btn_check_on_pressed" id="0x0108076f" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_dark" id="0x01080770" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_light" id="0x01080773" />
+    <public type="drawable" name="semc_btn_check_on_selected" id="0x01080776" />
+    <public type="drawable" name="semc_btn_circle" id="0x01080777" />
+    <public type="drawable" name="semc_btn_close_selected" id="0x0108077d" />
+    <public type="drawable" name="semc_btn_default" id="0x0108077e" />
+    <public type="drawable" name="semc_btn_default_holo_dark" id="0x01080788" />
+    <public type="drawable" name="semc_btn_default_holo_dark_unthemed" id="0x01080789" />
+    <public type="drawable" name="semc_btn_default_holo_light" id="0x0108078a" />
+    <public type="drawable" name="semc_btn_default_small" id="0x01080796" />
+    <public type="drawable" name="semc_btn_radio" id="0x0108079d" />
+    <public type="drawable" name="semc_btn_radio_holo_dark" id="0x0108079e" />
+    <public type="drawable" name="semc_btn_radio_holo_dark_background" id="0x0108079f" />
+    <public type="drawable" name="semc_btn_radio_holo_dark_indicator" id="0x010807a0" />
+    <public type="drawable" name="semc_btn_radio_holo_dark_no_animation" id="0x010807a1" />
+    <public type="drawable" name="semc_btn_radio_holo_light" id="0x010807a2" />
+    <public type="drawable" name="semc_btn_radio_holo_light_background" id="0x010807a3" />
+    <public type="drawable" name="semc_btn_radio_holo_light_indicator" id="0x010807a4" />
+    <public type="drawable" name="semc_btn_radio_holo_light_no_animation" id="0x010807a5" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_dark" id="0x010807b2" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_light" id="0x010807b5" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_dark" id="0x010807ba" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_light" id="0x010807bd" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_dark" id="0x010807c0" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_light" id="0x010807c4" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_dark" id="0x010807ca" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_light" id="0x010807cd" />
+    <public type="drawable" name="semc_btn_radio_on_holo_dark" id="0x010807d0" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light" id="0x010807d4" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_dark" id="0x010807e2" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_light" id="0x010807e5" />
+    <public type="drawable" name="semc_btn_star_holo_dark" id="0x010807f5" />
+    <public type="drawable" name="semc_btn_star_holo_light" id="0x010807f6" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_focused_holo_dark" id="0x01080815" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_focused_holo_light" id="0x01080817" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_dark" id="0x01080819" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_light" id="0x0108081c" />
+    <public type="drawable" name="semc_btn_toggle_on_focused_holo_dark" id="0x01080821" />
+    <public type="drawable" name="semc_btn_toggle_on_focused_holo_light" id="0x01080823" />
+    <public type="drawable" name="semc_btn_toggle_on_normal_holo_dark" id="0x01080825" />
+    <public type="drawable" name="semc_btn_toggle_on_normal_holo_light" id="0x01080827" />
+    <public type="drawable" name="semc_btn_toggle_on_pressed_holo_dark" id="0x01080829" />
+    <public type="drawable" name="semc_btn_toggle_on_pressed_holo_light" id="0x0108082b" />
+    <public type="drawable" name="semc_edit_text_holo_dark" id="0x0108082e" />
+    <public type="drawable" name="semc_edit_text_holo_light" id="0x0108082f" />
+    <public type="drawable" name="semc_progress_actionbar_holo" id="0x01080830" />
+    <public type="drawable" name="semc_progress_large_holo" id="0x01080831" />
+    <public type="drawable" name="semc_progress_medium_holo" id="0x01080832" />
+    <public type="drawable" name="semc_progress_small_holo" id="0x01080833" />
+    <public type="drawable" name="semc_ratingbar_full_empty_holo_dark" id="0x01080844" />
+    <public type="drawable" name="semc_ratingbar_full_empty_holo_light" id="0x01080845" />
+    <public type="drawable" name="semc_ratingbar_full_filled_holo_dark" id="0x01080846" />
+    <public type="drawable" name="semc_ratingbar_full_filled_holo_light" id="0x01080847" />
+    <public type="drawable" name="semc_ratingbar_full_holo_dark" id="0x01080848" />
+    <public type="drawable" name="semc_ratingbar_full_holo_light" id="0x01080849" />
+    <public type="drawable" name="semc_ratingbar_holo_dark" id="0x0108084a" />
+    <public type="drawable" name="semc_ratingbar_holo_light" id="0x0108084b" />
+    <public type="drawable" name="semc_ratingbar_small_holo_dark" id="0x0108084c" />
+    <public type="drawable" name="semc_ratingbar_small_holo_light" id="0x0108084d" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_dark" id="0x010808b2" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_light" id="0x010808b5" />
+    <public type="drawable" name="semc_switch_bg_on_holo_dark" id="0x010808b8" />
+    <public type="drawable" name="semc_switch_bg_on_holo_light" id="0x010808bb" />
+    <public type="drawable" name="semc_switch_inner_holo_dark" id="0x010808c0" />
+    <public type="drawable" name="semc_switch_inner_holo_light" id="0x010808c1" />
+    <public type="drawable" name="semc_switch_text_color" id="0x010808c2" />
+    <public type="drawable" name="semc_switch_track_holo_dark" id="0x010808cd" />
+    <public type="drawable" name="semc_switch_track_holo_light" id="0x010808ce" />
+    <public type="drawable" name="semc_tab_indicator_ab_holo_dark" id="0x010808d0" />
+    <public type="drawable" name="semc_tab_indicator_ab_holo_light" id="0x010808d1" />
+    <public type="drawable" name="semc_tab_indicator_holo_dark" id="0x010808d2" />
+    <public type="drawable" name="semc_tab_indicator_holo_light" id="0x010808d3" />
+    <public type="drawable" name="semc_tab_selected_focused_holo" id="0x010808d6" />
+    <public type="drawable" name="semc_tab_selected_holo" id="0x010808db" />
+    <public type="drawable" name="semc_tab_selected_pressed_holo" id="0x010808de" />
+    <public type="drawable" name="semc_tab_tab_radio" id="0x010808e1" />
+    <public type="drawable" name="semc_textfield_activated_holo_dark" id="0x010808e8" />
+    <public type="drawable" name="semc_textfield_activated_holo_light" id="0x010808eb" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_dark" id="0x010808f6" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_light" id="0x010808f9" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_dark" id="0x01080907" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_light" id="0x0108090a" />
+    <public type="drawable" name="semc_textfield_searchview_holo_dark" id="0x0108090d" />
+    <public type="drawable" name="semc_textfield_searchview_holo_light" id="0x0108090e" />
+    <public type="drawable" name="semc_btn_callhistory_dialpad_delete_pressed" id="0x01080731" />
+    <public type="drawable" name="semc_btn_default_normal" id="0x0108078b" />
+    <public type="drawable" name="semc_btn_default_normal_disable" id="0x0108078c" />
+    <public type="drawable" name="semc_btn_default_normal_disable_focused" id="0x0108078d" />
+    <public type="drawable" name="semc_btn_default_pressed" id="0x01080791" />
+    <public type="drawable" name="semc_btn_default_selected" id="0x01080795" />
+    <public type="drawable" name="semc_btn_default_small_normal" id="0x01080797" />
+    <public type="drawable" name="semc_btn_default_small_normal_disable" id="0x01080798" />
+    <public type="drawable" name="semc_btn_default_small_normal_disable_focused" id="0x01080799" />
+    <public type="drawable" name="semc_btn_default_small_pressed" id="0x0108079a" />
+    <public type="drawable" name="semc_btn_default_small_selected" id="0x0108079b" />
+    <public type="drawable" name="semc_btn_default_with_margin" id="0x0108079c" />
+    <public type="drawable" name="divider_horizontal_textfield" id="0x01080013" />
+    <public type="drawable" name="btn_check_buttonless_off" id="0x010800d9" />
+    <public type="drawable" name="btn_check_buttonless_on" id="0x010800da" />
+    <public type="drawable" name="btn_check_on_disable_focused" id="0x010800f6" />
+    <public type="drawable" name="btn_check_on_disable_focused_holo_light" id="0x010800f7" />
+    <public type="drawable" name="btn_check_on_disable_holo_dark" id="0x010800f8" />
+    <public type="drawable" name="btn_check_on_disable_holo_light" id="0x010800f9" />
+    <public type="drawable" name="dialog_middle_holo" id="0x01080231" />
+    <public type="drawable" name="divider_strong_holo" id="0x0108023a" />
+    <public type="drawable" name="dropdown_ic_arrow_focused_holo_dark" id="0x0108024b" />
+    <public type="drawable" name="dropdown_ic_arrow_pressed_holo_dark" id="0x0108024f" />
+    <public type="drawable" name="ic_action_assist_focused" id="0x0108029a" />
+    <public type="drawable" name="ic_clear_normal" id="0x010802c5" />
+    <public type="drawable" name="indicator_code_lock_point_area_red" id="0x010803d7" />
+    <public type="drawable" name="jog_tab_bar_left_end_confirm_gray" id="0x010803ea" />
+    <public type="drawable" name="jog_tab_bar_left_end_confirm_green" id="0x010803eb" />
+    <public type="drawable" name="jog_tab_bar_left_end_confirm_red" id="0x010803ec" />
+    <public type="drawable" name="jog_tab_bar_left_end_confirm_yellow" id="0x010803ed" />
+    <public type="drawable" name="jog_tab_bar_left_end_normal" id="0x010803ee" />
+    <public type="drawable" name="jog_tab_bar_left_end_pressed" id="0x010803ef" />
+    <public type="drawable" name="jog_tab_bar_right_end_confirm_gray" id="0x010803f3" />
+    <public type="drawable" name="jog_tab_bar_right_end_confirm_green" id="0x010803f4" />
+    <public type="drawable" name="jog_tab_bar_right_end_confirm_red" id="0x010803f5" />
+    <public type="drawable" name="jog_tab_bar_right_end_confirm_yellow" id="0x010803f6" />
+    <public type="drawable" name="jog_tab_bar_right_end_normal" id="0x010803f7" />
+    <public type="drawable" name="jog_tab_bar_right_end_pressed" id="0x010803f8" />
+    <public type="drawable" name="jog_tab_left_confirm_gray" id="0x010803fd" />
+    <public type="drawable" name="jog_tab_left_confirm_green" id="0x010803fe" />
+    <public type="drawable" name="jog_tab_left_confirm_red" id="0x010803ff" />
+    <public type="drawable" name="jog_tab_left_confirm_yellow" id="0x01080400" />
+    <public type="drawable" name="jog_tab_left_normal" id="0x01080402" />
+    <public type="drawable" name="jog_tab_left_pressed" id="0x01080403" />
+    <public type="drawable" name="jog_tab_right_confirm_gray" id="0x01080405" />
+    <public type="drawable" name="jog_tab_right_confirm_green" id="0x01080406" />
+    <public type="drawable" name="jog_tab_right_confirm_red" id="0x01080407" />
+    <public type="drawable" name="jog_tab_right_confirm_yellow" id="0x01080408" />
+    <public type="drawable" name="jog_tab_right_normal" id="0x0108040b" />
+    <public type="drawable" name="jog_tab_right_pressed" id="0x0108040c" />
+    <public type="drawable" name="jog_tab_target_gray" id="0x0108040f" />
+    <public type="drawable" name="jog_tab_target_green" id="0x01080410" />
+    <public type="drawable" name="jog_tab_target_red" id="0x01080411" />
+    <public type="drawable" name="jog_tab_target_yellow" id="0x01080412" />
+    <public type="drawable" name="pointer_arrow_icon" id="0x010804d1" />
+    <public type="drawable" name="pointer_spot_anchor_icon" id="0x010804d3" />
+    <public type="drawable" name="pointer_spot_hover_icon" id="0x010804d5" />
+    <public type="drawable" name="pointer_spot_touch_icon" id="0x010804d7" />
+    <public type="drawable" name="spinner_ab_default_holo_dark_am" id="0x01080579" />
+    <public type="drawable" name="spinner_ab_default_holo_light_am" id="0x0108057b" />
+    <public type="drawable" name="spinner_ab_disabled_holo_dark_am" id="0x0108057d" />
+    <public type="drawable" name="spinner_ab_disabled_holo_light_am" id="0x0108057f" />
+    <public type="drawable" name="spinner_ab_focused_holo_dark_am" id="0x01080581" />
+    <public type="drawable" name="spinner_ab_focused_holo_light_am" id="0x01080583" />
+    <public type="drawable" name="spinner_ab_pressed_holo_dark_am" id="0x01080587" />
+    <public type="drawable" name="spinner_ab_pressed_holo_light_am" id="0x01080589" />
+    <public type="drawable" name="spinner_default_holo_dark_am" id="0x01080593" />
+    <public type="drawable" name="spinner_default_holo_light_am" id="0x01080595" />
+    <public type="drawable" name="spinner_disabled_holo_dark_am" id="0x01080598" />
+    <public type="drawable" name="spinner_disabled_holo_light_am" id="0x0108059a" />
+    <public type="drawable" name="spinner_focused_holo_dark_am" id="0x0108059e" />
+    <public type="drawable" name="spinner_focused_holo_light_am" id="0x010805a0" />
+    <public type="drawable" name="spinner_pressed_holo_dark_am" id="0x010805a5" />
+    <public type="drawable" name="spinner_pressed_holo_light_am" id="0x010805a7" />
+    <public type="drawable" name="stat_sys_battery_10" id="0x010805bc" />
+    <public type="drawable" name="stat_sys_battery_20" id="0x010805bf" />
+    <public type="drawable" name="stat_sys_battery_40" id="0x010805c1" />
+    <public type="drawable" name="stat_sys_battery_60" id="0x010805c4" />
+    <public type="drawable" name="stat_sys_battery_80" id="0x010805c6" />
+    <public type="drawable" name="stat_sys_battery_charge_anim1" id="0x010805ca" />
+    <public type="drawable" name="stat_sys_battery_charge_anim2" id="0x010805cd" />
+    <public type="drawable" name="stat_sys_battery_charge_anim3" id="0x010805cf" />
+    <public type="drawable" name="stat_sys_battery_charge_anim4" id="0x010805d0" />
+    <public type="drawable" name="stat_sys_battery_charge_anim5" id="0x010805d2" />
+    <public type="drawable" name="status_bar_background" id="0x01080602" />
+    <public type="drawable" name="status_bar_header_background" id="0x01080603" />
+    <public type="drawable" name="status_bar_item_app_background_normal" id="0x01080604" />
+    <public type="drawable" name="status_bar_item_background_focus" id="0x01080605" />
+    <public type="drawable" name="status_bar_item_background_normal" id="0x01080606" />
+    <public type="drawable" name="status_bar_item_background_pressed" id="0x01080607" />
+    <public type="drawable" name="statusbar_background" id="0x01080608" />
+    <public type="drawable" name="text_edit_paste_window" id="0x0108065b" />
+    <public type="drawable" name="text_edit_side_paste_window" id="0x0108065c" />
+    <public type="drawable" name="text_edit_suggestions_window" id="0x0108065d" />
+    <public type="drawable" name="text_select_handle_left" id="0x0108065e" />
+    <public type="drawable" name="text_select_handle_middle" id="0x0108065f" />
+    <public type="drawable" name="text_select_handle_right" id="0x01080660" />
+    <public type="drawable" name="textfield_activated_holo_dark" id="0x01080661" />
+    <public type="drawable" name="textfield_activated_holo_light" id="0x01080662" />
+    <public type="drawable" name="textfield_bg_activated_holo_dark" id="0x01080663" />
+    <public type="drawable" name="textfield_bg_default_holo_dark" id="0x01080664" />
+    <public type="drawable" name="textfield_bg_disabled_focused_holo_dark" id="0x01080665" />
+    <public type="drawable" name="textfield_bg_disabled_holo_dark" id="0x01080666" />
+    <public type="drawable" name="textfield_bg_focused_holo_dark" id="0x01080667" />
+    <public type="drawable" name="textfield_default" id="0x01080668" />
+    <public type="drawable" name="textfield_default_holo_dark" id="0x01080669" />
+    <public type="drawable" name="textfield_default_holo_light" id="0x0108066a" />
+    <public type="drawable" name="textfield_disabled" id="0x0108066b" />
+    <public type="drawable" name="textfield_disabled_focused_holo_dark" id="0x0108066c" />
+    <public type="drawable" name="textfield_disabled_focused_holo_light" id="0x0108066d" />
+    <public type="drawable" name="textfield_disabled_holo_dark" id="0x0108066e" />
+    <public type="drawable" name="textfield_disabled_holo_light" id="0x0108066f" />
+    <public type="drawable" name="textfield_disabled_selected" id="0x01080670" />
+    <public type="drawable" name="textfield_focused_holo_dark" id="0x01080671" />
+    <public type="drawable" name="textfield_focused_holo_light" id="0x01080672" />
+    <public type="drawable" name="textfield_longpress_holo" id="0x01080673" />
+    <public type="drawable" name="textfield_multiline_activated_holo_dark" id="0x01080674" />
+    <public type="drawable" name="textfield_multiline_activated_holo_light" id="0x01080675" />
+    <public type="drawable" name="textfield_multiline_default_holo_dark" id="0x01080676" />
+    <public type="drawable" name="textfield_multiline_default_holo_light" id="0x01080677" />
+    <public type="drawable" name="textfield_multiline_disabled_focused_holo_dark" id="0x01080678" />
+    <public type="drawable" name="textfield_multiline_disabled_focused_holo_light" id="0x01080679" />
+    <public type="drawable" name="textfield_multiline_disabled_holo_dark" id="0x0108067a" />
+    <public type="drawable" name="textfield_multiline_disabled_holo_light" id="0x0108067b" />
+    <public type="drawable" name="textfield_multiline_focused_holo_dark" id="0x0108067c" />
+    <public type="drawable" name="textfield_multiline_focused_holo_light" id="0x0108067d" />
+    <public type="drawable" name="textfield_pressed_holo" id="0x0108067e" />
+    <public type="drawable" name="textfield_search_default" id="0x01080680" />
+    <public type="drawable" name="textfield_search_default_holo_dark" id="0x01080681" />
+    <public type="drawable" name="textfield_search_default_holo_light" id="0x01080682" />
+    <public type="drawable" name="textfield_search_empty_default" id="0x01080684" />
+    <public type="drawable" name="textfield_search_empty_pressed" id="0x01080685" />
+    <public type="drawable" name="textfield_search_empty_selected" id="0x01080686" />
+    <public type="drawable" name="textfield_search_pressed" id="0x01080687" />
+    <public type="drawable" name="textfield_search_right_default_holo_dark" id="0x01080688" />
+    <public type="drawable" name="textfield_search_right_default_holo_light" id="0x01080689" />
+    <public type="drawable" name="textfield_search_right_selected_holo_dark" id="0x0108068a" />
+    <public type="drawable" name="textfield_search_right_selected_holo_light" id="0x0108068b" />
+    <public type="drawable" name="textfield_search_selected" id="0x0108068c" />
+    <public type="drawable" name="textfield_search_selected_holo_dark" id="0x0108068d" />
+    <public type="drawable" name="textfield_search_selected_holo_light" id="0x0108068e" />
+    <public type="drawable" name="textfield_selected" id="0x01080693" />
+    <public type="drawable" name="usb_android" id="0x0108069d" />
+    <public type="drawable" name="usb_android_connected" id="0x0108069e" />
+    <public type="drawable" name="ic_navigation_ring_killtask_activated" id="0x010806e8" />
+    <public type="drawable" name="ic_navigation_ring_killtask_normal" id="0x010806e9" />
+    <public type="drawable" name="ic_navigation_ring_power_activated" id="0x010806eb" />
+    <public type="drawable" name="ic_navigation_ring_power_normal" id="0x010806ec" />
+    <public type="drawable" name="semc_bg" id="0x0108072c" />
+    <public type="drawable" name="semc_bg_light" id="0x0108072d" />
+    <public type="drawable" name="semc_bottom_bar_holo_dark" id="0x0108072f" />
+    <public type="drawable" name="semc_bottom_bar_holo_light" id="0x01080730" />
+    <public type="drawable" name="semc_btn_default_disabled_focused_holo_dark_unthemed" id="0x01080780" />
+    <public type="drawable" name="semc_btn_default_disabled_holo_dark_unthemed" id="0x01080783" />
+    <public type="drawable" name="semc_btn_default_focused_holo_dark_unthemed" id="0x01080786" />
+    <public type="drawable" name="semc_btn_default_normal_holo_dark_unthemed" id="0x0108078f" />
+    <public type="drawable" name="semc_btn_default_pressed_holo_dark_unthemed" id="0x01080793" />
+    <public type="drawable" name="semc_btn_radio_on_enabled_holo_dark_colored" id="0x010807c8" />
+    <public type="drawable" name="semc_btn_radio_on_enabled_holo_light_colored" id="0x010807c9" />
+    <public type="drawable" name="semc_btn_rating_star_off_focused_holo_dark" id="0x010807e9" />
+    <public type="drawable" name="semc_btn_rating_star_off_focused_holo_light" id="0x010807ea" />
+    <public type="drawable" name="semc_btn_rating_star_off_normal_holo_dark" id="0x010807eb" />
+    <public type="drawable" name="semc_btn_rating_star_off_normal_holo_light" id="0x010807ec" />
+    <public type="drawable" name="semc_btn_rating_star_off_pressed_holo_dark" id="0x010807ed" />
+    <public type="drawable" name="semc_btn_rating_star_off_pressed_holo_light" id="0x010807ee" />
+    <public type="drawable" name="semc_btn_rating_star_on_focused_holo_dark" id="0x010807ef" />
+    <public type="drawable" name="semc_btn_rating_star_on_focused_holo_light" id="0x010807f0" />
+    <public type="drawable" name="semc_btn_rating_star_on_normal_holo_dark" id="0x010807f1" />
+    <public type="drawable" name="semc_btn_rating_star_on_normal_holo_light" id="0x010807f2" />
+    <public type="drawable" name="semc_btn_rating_star_on_pressed_holo_dark" id="0x010807f3" />
+    <public type="drawable" name="semc_btn_rating_star_on_pressed_holo_light" id="0x010807f4" />
+    <public type="drawable" name="semc_btn_star_off_disabled_focused_holo_dark" id="0x010807f7" />
+    <public type="drawable" name="semc_btn_star_off_disabled_focused_holo_light" id="0x010807f8" />
+    <public type="drawable" name="semc_btn_star_off_disabled_holo_dark" id="0x010807f9" />
+    <public type="drawable" name="semc_btn_star_off_disabled_holo_light" id="0x010807fa" />
+    <public type="drawable" name="semc_btn_star_off_focused_holo_dark" id="0x010807fb" />
+    <public type="drawable" name="semc_btn_star_off_focused_holo_light" id="0x010807fc" />
+    <public type="drawable" name="semc_btn_star_off_normal_holo_dark" id="0x010807fd" />
+    <public type="drawable" name="semc_btn_star_off_normal_holo_light" id="0x010807fe" />
+    <public type="drawable" name="semc_btn_star_off_pressed_holo_dark" id="0x010807ff" />
+    <public type="drawable" name="semc_btn_star_off_pressed_holo_light" id="0x01080800" />
+    <public type="drawable" name="semc_btn_star_on_disabled_focused_holo_dark" id="0x01080801" />
+    <public type="drawable" name="semc_btn_star_on_disabled_focused_holo_light" id="0x01080802" />
+    <public type="drawable" name="semc_btn_star_on_disabled_holo_dark" id="0x01080803" />
+    <public type="drawable" name="semc_btn_star_on_disabled_holo_light" id="0x01080804" />
+    <public type="drawable" name="semc_btn_star_on_focused_holo_dark" id="0x01080805" />
+    <public type="drawable" name="semc_btn_star_on_focused_holo_light" id="0x01080806" />
+    <public type="drawable" name="semc_btn_star_on_normal_holo_dark" id="0x01080807" />
+    <public type="drawable" name="semc_btn_star_on_normal_holo_light" id="0x01080808" />
+    <public type="drawable" name="semc_btn_star_on_pressed_holo_dark" id="0x01080809" />
+    <public type="drawable" name="semc_btn_star_on_pressed_holo_light" id="0x0108080a" />
+    <public type="drawable" name="semc_rate_star_big_half_holo_dark" id="0x01080838" />
+    <public type="drawable" name="semc_rate_star_big_half_holo_light" id="0x01080839" />
+    <public type="drawable" name="semc_rate_star_big_off_holo_dark" id="0x0108083a" />
+    <public type="drawable" name="semc_rate_star_big_off_holo_light" id="0x0108083b" />
+    <public type="drawable" name="semc_rate_star_big_on_holo_dark" id="0x0108083c" />
+    <public type="drawable" name="semc_rate_star_big_on_holo_light" id="0x0108083d" />
+    <public type="drawable" name="semc_rate_star_small_half_holo_dark" id="0x0108083e" />
+    <public type="drawable" name="semc_rate_star_small_half_holo_light" id="0x0108083f" />
+    <public type="drawable" name="semc_rate_star_small_off_holo_dark" id="0x01080840" />
+    <public type="drawable" name="semc_rate_star_small_off_holo_light" id="0x01080841" />
+    <public type="drawable" name="semc_rate_star_small_on_holo_dark" id="0x01080842" />
+    <public type="drawable" name="semc_rate_star_small_on_holo_light" id="0x01080843" />
+    <public type="drawable" name="semc_spinner_ab_default_holo_dark_am" id="0x0108089e" />
+    <public type="drawable" name="semc_spinner_ab_default_holo_light_am" id="0x0108089f" />
+    <public type="drawable" name="semc_spinner_ab_disabled_holo_dark_am" id="0x010808a0" />
+    <public type="drawable" name="semc_spinner_ab_disabled_holo_light_am" id="0x010808a1" />
+    <public type="drawable" name="semc_spinner_ab_focused_holo_dark_am" id="0x010808a2" />
+    <public type="drawable" name="semc_spinner_ab_focused_holo_light_am" id="0x010808a3" />
+    <public type="drawable" name="semc_spinner_ab_pressed_holo_dark_am" id="0x010808a4" />
+    <public type="drawable" name="semc_spinner_ab_pressed_holo_light_am" id="0x010808a5" />
+    <public type="drawable" name="semc_spinner_default_holo_dark_am" id="0x010808a6" />
+    <public type="drawable" name="semc_spinner_default_holo_light_am" id="0x010808a7" />
+    <public type="drawable" name="semc_spinner_disabled_holo_dark_am" id="0x010808a8" />
+    <public type="drawable" name="semc_spinner_disabled_holo_light_am" id="0x010808a9" />
+    <public type="drawable" name="semc_spinner_focused_holo_dark_am" id="0x010808aa" />
+    <public type="drawable" name="semc_spinner_focused_holo_light_am" id="0x010808ab" />
+    <public type="drawable" name="semc_spinner_pressed_holo_dark_am" id="0x010808ac" />
+    <public type="drawable" name="semc_spinner_pressed_holo_light_am" id="0x010808ad" />
+    <public type="drawable" name="semc_textfield_activated_holo_dark_colored" id="0x010808e9" />
+    <public type="drawable" name="semc_textfield_activated_holo_dark_normal" id="0x010808ea" />
+    <public type="drawable" name="semc_textfield_activated_holo_light_colored" id="0x010808ec" />
+    <public type="drawable" name="semc_textfield_activated_holo_light_normal" id="0x010808ed" />
+    <public type="drawable" name="semc_textfield_default_holo_dark" id="0x010808ee" />
+    <public type="drawable" name="semc_textfield_default_holo_light" id="0x010808ef" />
+    <public type="drawable" name="semc_textfield_disabled_focused_holo_dark" id="0x010808f0" />
+    <public type="drawable" name="semc_textfield_disabled_focused_holo_light" id="0x010808f1" />
+    <public type="drawable" name="semc_textfield_disabled_holo_dark" id="0x010808f2" />
+    <public type="drawable" name="semc_textfield_disabled_holo_light" id="0x010808f3" />
+    <public type="drawable" name="semc_textfield_focused_holo_dark" id="0x010808f4" />
+    <public type="drawable" name="semc_textfield_focused_holo_light" id="0x010808f5" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_dark_colored" id="0x010808f7" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_dark_normal" id="0x010808f8" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_light_colored" id="0x010808fa" />
+    <public type="drawable" name="semc_textfield_multiline_activated_holo_light_normal" id="0x010808fb" />
+    <public type="drawable" name="semc_textfield_multiline_default_holo_dark" id="0x010808fc" />
+    <public type="drawable" name="semc_textfield_multiline_default_holo_light" id="0x010808fd" />
+    <public type="drawable" name="semc_textfield_multiline_disabled_focused_holo_dark" id="0x010808fe" />
+    <public type="drawable" name="semc_textfield_multiline_disabled_focused_holo_light" id="0x010808ff" />
+    <public type="drawable" name="semc_textfield_multiline_disabled_holo_dark" id="0x01080900" />
+    <public type="drawable" name="semc_textfield_multiline_disabled_holo_light" id="0x01080901" />
+    <public type="drawable" name="semc_textfield_multiline_focused_holo_dark" id="0x01080902" />
+    <public type="drawable" name="semc_textfield_multiline_focused_holo_light" id="0x01080903" />
+    <public type="drawable" name="semc_textfield_search_default_holo_dark" id="0x01080904" />
+    <public type="drawable" name="semc_textfield_search_default_holo_light" id="0x01080905" />
+    <public type="drawable" name="semc_textfield_search_right_holo" id="0x01080906" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_dark_colored" id="0x01080908" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_dark_normal" id="0x01080909" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_light_colored" id="0x0108090b" />
+    <public type="drawable" name="semc_textfield_search_selected_holo_light_normal" id="0x0108090c" />
+    <public type="drawable" name="stat_sys_tether_bluetooth_off" id="0x01080915" />
+    <public type="drawable" name="stat_sys_tether_usb_off" id="0x01080916" />
+    <public type="drawable" name="stat_sys_tether_wifi_off" id="0x01080917" />
+    <public type="drawable" name="stat_sys_unknownsources_off" id="0x01080918" />
+    <public type="drawable" name="stat_sys_usb_debugging_off" id="0x01080919" />
+    <public type="drawable" name="switch_bg_on_disabled_holo_dark_normal" id="0x0108091a" />
+    <public type="drawable" name="switch_bg_on_disabled_holo_light_normal" id="0x0108091b" />
+    <public type="drawable" name="switch_bg_on_holo_dark_normal" id="0x0108091c" />
+    <public type="drawable" name="switch_bg_on_holo_light_normal" id="0x0108091d" />
+    <public type="drawable" name="switch_bg_semc_holo_dark" id="0x0108091e" />
+    <public type="drawable" name="switch_bg_semc_holo_light" id="0x0108091f" />
+    <public type="drawable" name="textfield_search_right" id="0x01080921" />
+    <public type="drawable" name="textfield_search_right_holo" id="0x01080922" />
+    <public type="drawable" name="stat_notify_call_mute" id="0x01080076" />
+    <public type="drawable" name="stat_sys_speakerphone" id="0x01080087" />
+    <public type="drawable" name="ic_lockscreen_handle_pressed" id="0x0108030e" />
+    <public type="drawable" name="sym_keyboard_return_holo" id="0x01080637" />
+    <public type="drawable" name="unlock_default" id="0x01080699" />
+    <public type="drawable" name="unlock_halo" id="0x0108069a" />
+    <public type="drawable" name="unlock_ring" id="0x0108069b" />
+    <public type="drawable" name="unlock_wave" id="0x0108069c" />
+    <public type="drawable" name="btn_lock_normal" id="0x01080169" />
     <public type="drawable" name="arrow_down_float" id="0x01080002" />
     <public type="drawable" name="arrow_up_float" id="0x01080003" />
     <public type="drawable" name="btn_star_big_off" id="0x0108000b" />
@@ -5321,7 +5745,6 @@
     <public type="drawable" name="checkbox_off_background" id="0x0108000f" />
     <public type="drawable" name="checkbox_on_background" id="0x01080010" />
     <public type="drawable" name="divider_horizontal_bright" id="0x01080012" />
-    <public type="drawable" name="divider_horizontal_textfield" id="0x01080013" />
     <public type="drawable" name="divider_horizontal_dark" id="0x01080014" />
     <public type="drawable" name="divider_horizontal_dim_dark" id="0x01080015" />
     <public type="drawable" name="editbox_background_normal" id="0x01080019" />
@@ -5405,7 +5828,6 @@
     <public type="drawable" name="star_big_off" id="0x01080073" />
     <public type="drawable" name="star_on" id="0x01080074" />
     <public type="drawable" name="star_off" id="0x01080075" />
-    <public type="drawable" name="stat_notify_call_mute" id="0x01080076" />
     <public type="drawable" name="stat_notify_chat" id="0x01080077" />
     <public type="drawable" name="stat_notify_error" id="0x01080078" />
     <public type="drawable" name="stat_notify_more" id="0x01080079" />
@@ -5419,7 +5841,6 @@
     <public type="drawable" name="stat_sys_phone_call" id="0x01080084" />
     <public type="drawable" name="stat_sys_phone_call_forward" id="0x01080085" />
     <public type="drawable" name="stat_sys_phone_call_on_hold" id="0x01080086" />
-    <public type="drawable" name="stat_sys_speakerphone" id="0x01080087" />
     <public type="drawable" name="stat_sys_warning" id="0x0108008a" />
     <public type="drawable" name="sym_action_call" id="0x0108008d" />
     <public type="drawable" name="sym_action_chat" id="0x0108008e" />
@@ -5472,8 +5893,6 @@
     <public type="drawable" name="btn_cab_done_focused_holo_light" id="0x010800d3" />
     <public type="drawable" name="btn_cab_done_pressed_holo_dark" id="0x010800d6" />
     <public type="drawable" name="btn_cab_done_pressed_holo_light" id="0x010800d7" />
-    <public type="drawable" name="btn_check_buttonless_off" id="0x010800d9" />
-    <public type="drawable" name="btn_check_buttonless_on" id="0x010800da" />
     <public type="drawable" name="btn_check_label_background" id="0x010800dd" />
     <public type="drawable" name="btn_check_off" id="0x010800de" />
     <public type="drawable" name="btn_check_off_disable" id="0x010800df" />
@@ -5499,10 +5918,6 @@
     <public type="drawable" name="btn_check_off_selected" id="0x010800f3" />
     <public type="drawable" name="btn_check_on" id="0x010800f4" />
     <public type="drawable" name="btn_check_on_disable" id="0x010800f5" />
-    <public type="drawable" name="btn_check_on_disable_focused" id="0x010800f6" />
-    <public type="drawable" name="btn_check_on_disable_focused_holo_light" id="0x010800f7" />
-    <public type="drawable" name="btn_check_on_disable_holo_dark" id="0x010800f8" />
-    <public type="drawable" name="btn_check_on_disable_holo_light" id="0x010800f9" />
     <public type="drawable" name="btn_check_on_disabled_focused_holo_dark" id="0x010800fa" />
     <public type="drawable" name="btn_check_on_disabled_focused_holo_light" id="0x010800fb" />
     <public type="drawable" name="btn_check_on_disabled_holo_dark" id="0x010800fc" />
@@ -5781,7 +6196,6 @@
     <public type="drawable" name="dialog_ic_close_normal_holo_light" id="0x0108022e" />
     <public type="drawable" name="dialog_ic_close_pressed_holo_dark" id="0x0108022f" />
     <public type="drawable" name="dialog_ic_close_pressed_holo_light" id="0x01080230" />
-    <public type="drawable" name="dialog_middle_holo" id="0x01080231" />
     <public type="drawable" name="dialog_middle_holo_dark" id="0x01080232" />
     <public type="drawable" name="dialog_middle_holo_light" id="0x01080233" />
     <public type="drawable" name="dialog_top_holo_dark" id="0x01080234" />
@@ -5790,7 +6204,6 @@
     <public type="drawable" name="divider_horizontal_dark_opaque" id="0x01080237" />
     <public type="drawable" name="divider_horizontal_holo_dark" id="0x01080238" />
     <public type="drawable" name="divider_horizontal_holo_light" id="0x01080239" />
-    <public type="drawable" name="divider_strong_holo" id="0x0108023a" />
     <public type="drawable" name="divider_vertical_bright" id="0x0108023b" />
     <public type="drawable" name="divider_vertical_bright_opaque" id="0x0108023c" />
     <public type="drawable" name="divider_vertical_dark" id="0x0108023d" />
@@ -5807,11 +6220,9 @@
     <public type="drawable" name="dropdown_ic_arrow_disabled_focused_holo_light" id="0x01080248" />
     <public type="drawable" name="dropdown_ic_arrow_disabled_holo_dark" id="0x01080249" />
     <public type="drawable" name="dropdown_ic_arrow_disabled_holo_light" id="0x0108024a" />
-    <public type="drawable" name="dropdown_ic_arrow_focused_holo_dark" id="0x0108024b" />
     <public type="drawable" name="dropdown_ic_arrow_focused_holo_light" id="0x0108024c" />
     <public type="drawable" name="dropdown_ic_arrow_normal_holo_dark" id="0x0108024d" />
     <public type="drawable" name="dropdown_ic_arrow_normal_holo_light" id="0x0108024e" />
-    <public type="drawable" name="dropdown_ic_arrow_pressed_holo_dark" id="0x0108024f" />
     <public type="drawable" name="dropdown_ic_arrow_pressed_holo_light" id="0x01080250" />
     <public type="drawable" name="dropdown_normal_holo_dark" id="0x01080251" />
     <public type="drawable" name="dropdown_normal_holo_light" id="0x01080252" />
@@ -5873,7 +6284,6 @@
     <public type="drawable" name="highlight_selected" id="0x01080295" />
     <public type="drawable" name="ic_ab_back_holo_dark_am" id="0x01080297" />
     <public type="drawable" name="ic_ab_back_holo_light_am" id="0x01080299" />
-    <public type="drawable" name="ic_action_assist_focused" id="0x0108029a" />
     <public type="drawable" name="ic_action_assist_generic_activated" id="0x0108029c" />
     <public type="drawable" name="ic_action_assist_generic_normal" id="0x0108029d" />
     <public type="drawable" name="ic_aggregated" id="0x0108029e" />
@@ -5902,7 +6312,6 @@
     <public type="drawable" name="ic_cab_done_holo_light" id="0x010802c0" />
     <public type="drawable" name="ic_checkmark_holo_light" id="0x010802c1" />
     <public type="drawable" name="ic_clear_disabled" id="0x010802c3" />
-    <public type="drawable" name="ic_clear_normal" id="0x010802c5" />
     <public type="drawable" name="ic_clear_search_api_disabled_holo_light" id="0x010802c6" />
     <public type="drawable" name="ic_clear_search_api_holo_light" id="0x010802c7" />
     <public type="drawable" name="ic_coins_l" id="0x010802c8" />
@@ -5948,7 +6357,6 @@
     <public type="drawable" name="ic_lock_screenshot" id="0x010802f6" />
     <public type="drawable" name="ic_lock_silent_mode_vibrate" id="0x010802f7" />
     <public type="drawable" name="ic_lockscreen_glowdot" id="0x01080309" />
-    <public type="drawable" name="ic_lockscreen_handle_pressed" id="0x0108030e" />
     <public type="drawable" name="ic_maps_indicator_current_position" id="0x01080320" />
     <public type="drawable" name="ic_maps_indicator_current_position_anim1" id="0x01080322" />
     <public type="drawable" name="ic_maps_indicator_current_position_anim2" id="0x01080323" />
@@ -6078,7 +6486,6 @@
     <public type="drawable" name="indicator_code_lock_point_area_default_holo" id="0x010803d4" />
     <public type="drawable" name="indicator_code_lock_point_area_green" id="0x010803d5" />
     <public type="drawable" name="indicator_code_lock_point_area_green_holo" id="0x010803d6" />
-    <public type="drawable" name="indicator_code_lock_point_area_red" id="0x010803d7" />
     <public type="drawable" name="indicator_code_lock_point_area_red_holo" id="0x010803d8" />
     <public type="drawable" name="indicator_input_error" id="0x010803d9" />
     <public type="drawable" name="jog_dial_arrow_long_left_green" id="0x010803de" />
@@ -6092,34 +6499,6 @@
     <public type="drawable" name="jog_dial_bg" id="0x010803e6" />
     <public type="drawable" name="jog_dial_dimple" id="0x010803e7" />
     <public type="drawable" name="jog_dial_dimple_dim" id="0x010803e8" />
-    <public type="drawable" name="jog_tab_bar_left_end_confirm_gray" id="0x010803ea" />
-    <public type="drawable" name="jog_tab_bar_left_end_confirm_green" id="0x010803eb" />
-    <public type="drawable" name="jog_tab_bar_left_end_confirm_red" id="0x010803ec" />
-    <public type="drawable" name="jog_tab_bar_left_end_confirm_yellow" id="0x010803ed" />
-    <public type="drawable" name="jog_tab_bar_left_end_normal" id="0x010803ee" />
-    <public type="drawable" name="jog_tab_bar_left_end_pressed" id="0x010803ef" />
-    <public type="drawable" name="jog_tab_bar_right_end_confirm_gray" id="0x010803f3" />
-    <public type="drawable" name="jog_tab_bar_right_end_confirm_green" id="0x010803f4" />
-    <public type="drawable" name="jog_tab_bar_right_end_confirm_red" id="0x010803f5" />
-    <public type="drawable" name="jog_tab_bar_right_end_confirm_yellow" id="0x010803f6" />
-    <public type="drawable" name="jog_tab_bar_right_end_normal" id="0x010803f7" />
-    <public type="drawable" name="jog_tab_bar_right_end_pressed" id="0x010803f8" />
-    <public type="drawable" name="jog_tab_left_confirm_gray" id="0x010803fd" />
-    <public type="drawable" name="jog_tab_left_confirm_green" id="0x010803fe" />
-    <public type="drawable" name="jog_tab_left_confirm_red" id="0x010803ff" />
-    <public type="drawable" name="jog_tab_left_confirm_yellow" id="0x01080400" />
-    <public type="drawable" name="jog_tab_left_normal" id="0x01080402" />
-    <public type="drawable" name="jog_tab_left_pressed" id="0x01080403" />
-    <public type="drawable" name="jog_tab_right_confirm_gray" id="0x01080405" />
-    <public type="drawable" name="jog_tab_right_confirm_green" id="0x01080406" />
-    <public type="drawable" name="jog_tab_right_confirm_red" id="0x01080407" />
-    <public type="drawable" name="jog_tab_right_confirm_yellow" id="0x01080408" />
-    <public type="drawable" name="jog_tab_right_normal" id="0x0108040b" />
-    <public type="drawable" name="jog_tab_right_pressed" id="0x0108040c" />
-    <public type="drawable" name="jog_tab_target_gray" id="0x0108040f" />
-    <public type="drawable" name="jog_tab_target_green" id="0x01080410" />
-    <public type="drawable" name="jog_tab_target_red" id="0x01080411" />
-    <public type="drawable" name="jog_tab_target_yellow" id="0x01080412" />
     <public type="drawable" name="keyboard_accessory_bg_landscape" id="0x01080413" />
     <public type="drawable" name="keyboard_background" id="0x01080414" />
     <public type="drawable" name="keyboard_key_feedback_background" id="0x01080416" />
@@ -6251,13 +6630,9 @@
     <public type="drawable" name="perm_group_wallpaper" id="0x010804cd" />
     <public type="drawable" name="picture_emergency" id="0x010804ce" />
     <public type="drawable" name="pointer_arrow" id="0x010804d0" />
-    <public type="drawable" name="pointer_arrow_icon" id="0x010804d1" />
     <public type="drawable" name="pointer_spot_anchor" id="0x010804d2" />
-    <public type="drawable" name="pointer_spot_anchor_icon" id="0x010804d3" />
     <public type="drawable" name="pointer_spot_hover" id="0x010804d4" />
-    <public type="drawable" name="pointer_spot_hover_icon" id="0x010804d5" />
     <public type="drawable" name="pointer_spot_touch" id="0x010804d6" />
-    <public type="drawable" name="pointer_spot_touch_icon" id="0x010804d7" />
     <public type="drawable" name="popup_bottom_bright" id="0x010804d8" />
     <public type="drawable" name="popup_bottom_dark" id="0x010804d9" />
     <public type="drawable" name="popup_bottom_medium" id="0x010804da" />
@@ -6363,30 +6738,14 @@
     <public type="drawable" name="spinner_48_outer_holo" id="0x01080573" />
     <public type="drawable" name="spinner_76_inner_holo" id="0x01080574" />
     <public type="drawable" name="spinner_76_outer_holo" id="0x01080575" />
-    <public type="drawable" name="spinner_ab_default_holo_dark_am" id="0x01080579" />
-    <public type="drawable" name="spinner_ab_default_holo_light_am" id="0x0108057b" />
-    <public type="drawable" name="spinner_ab_disabled_holo_dark_am" id="0x0108057d" />
-    <public type="drawable" name="spinner_ab_disabled_holo_light_am" id="0x0108057f" />
-    <public type="drawable" name="spinner_ab_focused_holo_dark_am" id="0x01080581" />
-    <public type="drawable" name="spinner_ab_focused_holo_light_am" id="0x01080583" />
-    <public type="drawable" name="spinner_ab_pressed_holo_dark_am" id="0x01080587" />
-    <public type="drawable" name="spinner_ab_pressed_holo_light_am" id="0x01080589" />
     <public type="drawable" name="spinner_black_16" id="0x0108058e" />
     <public type="drawable" name="spinner_black_20" id="0x0108058f" />
     <public type="drawable" name="spinner_black_48" id="0x01080590" />
     <public type="drawable" name="spinner_black_76" id="0x01080591" />
-    <public type="drawable" name="spinner_default_holo_dark_am" id="0x01080593" />
-    <public type="drawable" name="spinner_default_holo_light_am" id="0x01080595" />
-    <public type="drawable" name="spinner_disabled_holo_dark_am" id="0x01080598" />
-    <public type="drawable" name="spinner_disabled_holo_light_am" id="0x0108059a" />
     <public type="drawable" name="spinner_dropdown_background_down" id="0x0108059b" />
     <public type="drawable" name="spinner_dropdown_background_up" id="0x0108059c" />
-    <public type="drawable" name="spinner_focused_holo_dark_am" id="0x0108059e" />
-    <public type="drawable" name="spinner_focused_holo_light_am" id="0x010805a0" />
     <public type="drawable" name="spinner_normal" id="0x010805a1" />
     <public type="drawable" name="spinner_press" id="0x010805a3" />
-    <public type="drawable" name="spinner_pressed_holo_dark_am" id="0x010805a5" />
-    <public type="drawable" name="spinner_pressed_holo_light_am" id="0x010805a7" />
     <public type="drawable" name="spinner_select" id="0x010805a8" />
     <public type="drawable" name="spinner_white_16" id="0x010805a9" />
     <public type="drawable" name="spinner_white_48" id="0x010805aa" />
@@ -6405,28 +6764,18 @@
     <public type="drawable" name="stat_notify_wifi_in_range" id="0x010805b7" />
     <public type="drawable" name="stat_sys_adb_am" id="0x010805b9" />
     <public type="drawable" name="stat_sys_battery_0" id="0x010805bb" />
-    <public type="drawable" name="stat_sys_battery_10" id="0x010805bc" />
     <public type="drawable" name="stat_sys_battery_100" id="0x010805bd" />
     <public type="drawable" name="stat_sys_battery_15" id="0x010805be" />
-    <public type="drawable" name="stat_sys_battery_20" id="0x010805bf" />
     <public type="drawable" name="stat_sys_battery_28" id="0x010805c0" />
-    <public type="drawable" name="stat_sys_battery_40" id="0x010805c1" />
     <public type="drawable" name="stat_sys_battery_43" id="0x010805c2" />
     <public type="drawable" name="stat_sys_battery_57" id="0x010805c3" />
-    <public type="drawable" name="stat_sys_battery_60" id="0x010805c4" />
     <public type="drawable" name="stat_sys_battery_71" id="0x010805c5" />
-    <public type="drawable" name="stat_sys_battery_80" id="0x010805c6" />
     <public type="drawable" name="stat_sys_battery_85" id="0x010805c7" />
     <public type="drawable" name="stat_sys_battery_charge_anim0" id="0x010805c9" />
-    <public type="drawable" name="stat_sys_battery_charge_anim1" id="0x010805ca" />
     <public type="drawable" name="stat_sys_battery_charge_anim100" id="0x010805cb" />
     <public type="drawable" name="stat_sys_battery_charge_anim15" id="0x010805cc" />
-    <public type="drawable" name="stat_sys_battery_charge_anim2" id="0x010805cd" />
     <public type="drawable" name="stat_sys_battery_charge_anim28" id="0x010805ce" />
-    <public type="drawable" name="stat_sys_battery_charge_anim3" id="0x010805cf" />
-    <public type="drawable" name="stat_sys_battery_charge_anim4" id="0x010805d0" />
     <public type="drawable" name="stat_sys_battery_charge_anim43" id="0x010805d1" />
-    <public type="drawable" name="stat_sys_battery_charge_anim5" id="0x010805d2" />
     <public type="drawable" name="stat_sys_battery_charge_anim57" id="0x010805d3" />
     <public type="drawable" name="stat_sys_battery_charge_anim71" id="0x010805d4" />
     <public type="drawable" name="stat_sys_battery_charge_anim85" id="0x010805d5" />
@@ -6473,13 +6822,6 @@
     <public type="drawable" name="stat_sys_upload_anim3" id="0x010805ff" />
     <public type="drawable" name="stat_sys_upload_anim4" id="0x01080600" />
     <public type="drawable" name="stat_sys_upload_anim5" id="0x01080601" />
-    <public type="drawable" name="status_bar_background" id="0x01080602" />
-    <public type="drawable" name="status_bar_header_background" id="0x01080603" />
-    <public type="drawable" name="status_bar_item_app_background_normal" id="0x01080604" />
-    <public type="drawable" name="status_bar_item_background_focus" id="0x01080605" />
-    <public type="drawable" name="status_bar_item_background_normal" id="0x01080606" />
-    <public type="drawable" name="status_bar_item_background_pressed" id="0x01080607" />
-    <public type="drawable" name="statusbar_background" id="0x01080608" />
     <public type="drawable" name="submenu_arrow_nofocus" id="0x0108060a" />
     <public type="drawable" name="switch_bg_disabled_holo_dark" id="0x0108060b" />
     <public type="drawable" name="switch_bg_disabled_holo_light" id="0x0108060c" />
@@ -6530,12 +6872,10 @@
     <public type="drawable" name="tab_press_bar_left" id="0x01080648" />
     <public type="drawable" name="tab_press_bar_right" id="0x01080649" />
     <public type="drawable" name="tab_pressed_holo" id="0x0108064a" />
-    <public type="drawable" name="tab_selected" id="0x0108064b" />
     <public type="drawable" name="tab_selected_bar_left" id="0x0108064c" />
     <public type="drawable" name="tab_selected_bar_left_v4" id="0x0108064d" />
     <public type="drawable" name="tab_selected_bar_right" id="0x0108064e" />
     <public type="drawable" name="tab_selected_bar_right_v4" id="0x0108064f" />
-    <public type="drawable" name="tab_selected_focused_holo" id="0x01080650" />
     <public type="drawable" name="tab_selected_holo" id="0x01080651" />
     <public type="drawable" name="tab_selected_pressed_holo" id="0x01080652" />
     <public type="drawable" name="tab_selected_v4" id="0x01080653" />
@@ -6544,72 +6884,375 @@
     <public type="drawable" name="tab_unselected_holo" id="0x01080656" />
     <public type="drawable" name="tab_unselected_pressed_holo" id="0x01080657" />
     <public type="drawable" name="tab_unselected_v4" id="0x01080658" />
-    <public type="drawable" name="text_edit_paste_window" id="0x0108065b" />
-    <public type="drawable" name="text_edit_side_paste_window" id="0x0108065c" />
-    <public type="drawable" name="text_edit_suggestions_window" id="0x0108065d" />
-    <public type="drawable" name="text_select_handle_left" id="0x0108065e" />
-    <public type="drawable" name="text_select_handle_middle" id="0x0108065f" />
-    <public type="drawable" name="text_select_handle_right" id="0x01080660" />
-    <public type="drawable" name="textfield_activated_holo_dark" id="0x01080661" />
-    <public type="drawable" name="textfield_activated_holo_light" id="0x01080662" />
-    <public type="drawable" name="textfield_bg_activated_holo_dark" id="0x01080663" />
-    <public type="drawable" name="textfield_bg_default_holo_dark" id="0x01080664" />
-    <public type="drawable" name="textfield_bg_disabled_focused_holo_dark" id="0x01080665" />
-    <public type="drawable" name="textfield_bg_disabled_holo_dark" id="0x01080666" />
-    <public type="drawable" name="textfield_bg_focused_holo_dark" id="0x01080667" />
-    <public type="drawable" name="textfield_default" id="0x01080668" />
-    <public type="drawable" name="textfield_default_holo_dark" id="0x01080669" />
-    <public type="drawable" name="textfield_default_holo_light" id="0x0108066a" />
-    <public type="drawable" name="textfield_disabled" id="0x0108066b" />
-    <public type="drawable" name="textfield_disabled_focused_holo_dark" id="0x0108066c" />
-    <public type="drawable" name="textfield_disabled_focused_holo_light" id="0x0108066d" />
-    <public type="drawable" name="textfield_disabled_holo_dark" id="0x0108066e" />
-    <public type="drawable" name="textfield_disabled_holo_light" id="0x0108066f" />
-    <public type="drawable" name="textfield_disabled_selected" id="0x01080670" />
-    <public type="drawable" name="textfield_focused_holo_dark" id="0x01080671" />
-    <public type="drawable" name="textfield_focused_holo_light" id="0x01080672" />
-    <public type="drawable" name="textfield_longpress_holo" id="0x01080673" />
-    <public type="drawable" name="textfield_multiline_activated_holo_dark" id="0x01080674" />
-    <public type="drawable" name="textfield_multiline_activated_holo_light" id="0x01080675" />
-    <public type="drawable" name="textfield_multiline_default_holo_dark" id="0x01080676" />
-    <public type="drawable" name="textfield_multiline_default_holo_light" id="0x01080677" />
-    <public type="drawable" name="textfield_multiline_disabled_focused_holo_dark" id="0x01080678" />
-    <public type="drawable" name="textfield_multiline_disabled_focused_holo_light" id="0x01080679" />
-    <public type="drawable" name="textfield_multiline_disabled_holo_dark" id="0x0108067a" />
-    <public type="drawable" name="textfield_multiline_disabled_holo_light" id="0x0108067b" />
-    <public type="drawable" name="textfield_multiline_focused_holo_dark" id="0x0108067c" />
-    <public type="drawable" name="textfield_multiline_focused_holo_light" id="0x0108067d" />
-    <public type="drawable" name="textfield_pressed_holo" id="0x0108067e" />
-    <public type="drawable" name="textfield_search_default" id="0x01080680" />
-    <public type="drawable" name="textfield_search_default_holo_dark" id="0x01080681" />
-    <public type="drawable" name="textfield_search_default_holo_light" id="0x01080682" />
-    <public type="drawable" name="textfield_search_empty_default" id="0x01080684" />
-    <public type="drawable" name="textfield_search_empty_pressed" id="0x01080685" />
-    <public type="drawable" name="textfield_search_empty_selected" id="0x01080686" />
-    <public type="drawable" name="textfield_search_pressed" id="0x01080687" />
-    <public type="drawable" name="textfield_search_right_default_holo_dark" id="0x01080688" />
-    <public type="drawable" name="textfield_search_right_default_holo_light" id="0x01080689" />
-    <public type="drawable" name="textfield_search_right_selected_holo_dark" id="0x0108068a" />
-    <public type="drawable" name="textfield_search_right_selected_holo_light" id="0x0108068b" />
-    <public type="drawable" name="textfield_search_selected" id="0x0108068c" />
-    <public type="drawable" name="textfield_search_selected_holo_dark" id="0x0108068d" />
-    <public type="drawable" name="textfield_search_selected_holo_light" id="0x0108068e" />
-    <public type="drawable" name="textfield_selected" id="0x01080693" />
     <public type="drawable" name="title_bar_medium" id="0x01080694" />
     <public type="drawable" name="title_bar_portrait" id="0x01080695" />
     <public type="drawable" name="title_bar_shadow" id="0x01080696" />
     <public type="drawable" name="transportcontrol_bg" id="0x01080697" />
     <public type="drawable" name="unknown_image" id="0x01080698" />
-    <public type="drawable" name="usb_android" id="0x0108069d" />
-    <public type="drawable" name="usb_android_connected" id="0x0108069e" />
     <public type="drawable" name="vpn_connected" id="0x010806a0" />
     <public type="drawable" name="vpn_disconnected" id="0x010806a1" />
-    <public type="drawable" name="sym_keyboard_return_holo" id="0x01080637" />
-    <public type="drawable" name="unlock_default" id="0x01080699" />
-    <public type="drawable" name="unlock_halo" id="0x0108069a" />
-    <public type="drawable" name="unlock_ring" id="0x0108069b" />
-    <public type="drawable" name="unlock_wave" id="0x0108069c" />
-    <public type="drawable" name="btn_lock_normal" id="0x01080169" />
+    <public type="drawable" name="ab_solid_inverse_holo" id="0x010806ba" />
+    <public type="drawable" name="ab_solid_shadow_holo_light" id="0x010806bb" />
+    <public type="drawable" name="ic_commit" id="0x010806bc" />
+    <public type="drawable" name="ic_dialog_screenshot" id="0x010806c1" />
+    <public type="drawable" name="menu_dropdown_panel_down_holo_dark" id="0x0108070d" />
+    <public type="drawable" name="menu_dropdown_panel_down_holo_light" id="0x0108070e" />
+    <public type="drawable" name="menu_dropdown_panel_up_holo_dark" id="0x0108070f" />
+    <public type="drawable" name="menu_dropdown_panel_up_holo_light" id="0x01080710" />
+    <public type="drawable" name="notification_bg_low_normal1" id="0x01080711" />
+    <public type="drawable" name="quickcontact_badge_pressed" id="0x0108072a" />
+    <public type="drawable" name="quickcontact_badge_small_pressed" id="0x0108072b" />
+    <public type="drawable" name="semc_bg_tile" id="0x0108072e" />
+    <public type="drawable" name="semc_btn_check_off_disabled_focused_holo_dark" id="0x0108073c" />
+    <public type="drawable" name="semc_btn_check_off_disabled_focused_holo_light" id="0x0108073d" />
+    <public type="drawable" name="semc_btn_check_off_disabled_holo_dark" id="0x0108073e" />
+    <public type="drawable" name="semc_btn_check_off_disabled_holo_light" id="0x0108073f" />
+    <public type="drawable" name="semc_btn_check_off_focused_holo_dark" id="0x01080740" />
+    <public type="drawable" name="semc_btn_check_off_focused_holo_light" id="0x01080741" />
+    <public type="drawable" name="semc_btn_check_off_holo_dark" id="0x01080742" />
+    <public type="drawable" name="semc_btn_check_off_holo_dark_indicator" id="0x01080743" />
+    <public type="drawable" name="semc_btn_check_off_holo_light" id="0x01080744" />
+    <public type="drawable" name="semc_btn_check_off_holo_light_indicator" id="0x01080745" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_dark_colored" id="0x01080748" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_dark_normal" id="0x01080749" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_light_colored" id="0x0108074b" />
+    <public type="drawable" name="semc_btn_check_off_pressed_holo_light_normal" id="0x0108074c" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_dark_colored" id="0x01080752" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_dark_normal" id="0x01080753" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_light_colored" id="0x01080755" />
+    <public type="drawable" name="semc_btn_check_on_disabled_focused_holo_light_normal" id="0x01080756" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_dark_colored" id="0x01080758" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_dark_indicator" id="0x01080759" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_dark_normal" id="0x0108075a" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_light_colored" id="0x0108075c" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_light_indicator" id="0x0108075d" />
+    <public type="drawable" name="semc_btn_check_on_disabled_holo_light_normal" id="0x0108075e" />
+    <public type="drawable" name="semc_btn_check_on_enabled_holo_dark_colored" id="0x0108075f" />
+    <public type="drawable" name="semc_btn_check_on_enabled_holo_light_colored" id="0x01080760" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_dark_colored" id="0x01080762" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_dark_normal" id="0x01080763" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_light_colored" id="0x01080765" />
+    <public type="drawable" name="semc_btn_check_on_focused_holo_light_normal" id="0x01080766" />
+    <public type="drawable" name="semc_btn_check_on_holo_dark_colored" id="0x01080768" />
+    <public type="drawable" name="semc_btn_check_on_holo_dark_indicator" id="0x01080769" />
+    <public type="drawable" name="semc_btn_check_on_holo_dark_normal" id="0x0108076a" />
+    <public type="drawable" name="semc_btn_check_on_holo_light_colored" id="0x0108076c" />
+    <public type="drawable" name="semc_btn_check_on_holo_light_indicator" id="0x0108076d" />
+    <public type="drawable" name="semc_btn_check_on_holo_light_normal" id="0x0108076e" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_dark_colored" id="0x01080771" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_dark_normal" id="0x01080772" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_light_colored" id="0x01080774" />
+    <public type="drawable" name="semc_btn_check_on_pressed_holo_light_normal" id="0x01080775" />
+    <public type="drawable" name="semc_btn_default_disabled_focused_holo_dark" id="0x0108077f" />
+    <public type="drawable" name="semc_btn_default_disabled_focused_holo_light" id="0x01080781" />
+    <public type="drawable" name="semc_btn_default_disabled_holo_dark" id="0x01080782" />
+    <public type="drawable" name="semc_btn_default_disabled_holo_light" id="0x01080784" />
+    <public type="drawable" name="semc_btn_default_focused_holo_dark" id="0x01080785" />
+    <public type="drawable" name="semc_btn_default_focused_holo_light" id="0x01080787" />
+    <public type="drawable" name="semc_btn_default_normal_holo_dark" id="0x0108078e" />
+    <public type="drawable" name="semc_btn_default_normal_holo_light" id="0x01080790" />
+    <public type="drawable" name="semc_btn_default_pressed_holo_dark" id="0x01080792" />
+    <public type="drawable" name="semc_btn_default_pressed_holo_light" id="0x01080794" />
+    <public type="drawable" name="semc_btn_radio_off_disabled_focused_holo_dark" id="0x010807a7" />
+    <public type="drawable" name="semc_btn_radio_off_disabled_focused_holo_light" id="0x010807a8" />
+    <public type="drawable" name="semc_btn_radio_off_disabled_holo_dark" id="0x010807a9" />
+    <public type="drawable" name="semc_btn_radio_off_disabled_holo_light" id="0x010807aa" />
+    <public type="drawable" name="semc_btn_radio_off_focused_holo_dark" id="0x010807ab" />
+    <public type="drawable" name="semc_btn_radio_off_focused_holo_light" id="0x010807ac" />
+    <public type="drawable" name="semc_btn_radio_off_holo_dark" id="0x010807ad" />
+    <public type="drawable" name="semc_btn_radio_off_holo_dark_indicator" id="0x010807ae" />
+    <public type="drawable" name="semc_btn_radio_off_holo_light" id="0x010807af" />
+    <public type="drawable" name="semc_btn_radio_off_holo_light_indicator" id="0x010807b0" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_dark_colored" id="0x010807b3" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_dark_normal" id="0x010807b4" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_light_colored" id="0x010807b6" />
+    <public type="drawable" name="semc_btn_radio_off_pressed_holo_light_normal" id="0x010807b7" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_dark_colored" id="0x010807bb" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_dark_normal" id="0x010807bc" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_light_colored" id="0x010807be" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_focused_holo_light_normal" id="0x010807bf" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_dark_colored" id="0x010807c1" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_dark_indicator" id="0x010807c2" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_dark_normal" id="0x010807c3" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_light_colored" id="0x010807c5" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_light_indicator" id="0x010807c6" />
+    <public type="drawable" name="semc_btn_radio_on_disabled_holo_light_normal" id="0x010807c7" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_dark_colored" id="0x010807cb" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_dark_normal" id="0x010807cc" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_light_colored" id="0x010807ce" />
+    <public type="drawable" name="semc_btn_radio_on_focused_holo_light_normal" id="0x010807cf" />
+    <public type="drawable" name="semc_btn_radio_on_holo_dark_colored" id="0x010807d1" />
+    <public type="drawable" name="semc_btn_radio_on_holo_dark_indicator" id="0x010807d2" />
+    <public type="drawable" name="semc_btn_radio_on_holo_dark_normal" id="0x010807d3" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_colored" id="0x010807d5" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator" id="0x010807d6" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator1" id="0x010807d7" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator2" id="0x010807d8" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator3" id="0x010807d9" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator4" id="0x010807da" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator5" id="0x010807db" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator6" id="0x010807dc" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator7" id="0x010807dd" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator8" id="0x010807de" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_indicator9" id="0x010807df" />
+    <public type="drawable" name="semc_btn_radio_on_holo_light_normal" id="0x010807e0" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_dark_colored" id="0x010807e3" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_dark_normal" id="0x010807e4" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_light_colored" id="0x010807e6" />
+    <public type="drawable" name="semc_btn_radio_on_pressed_holo_light_normal" id="0x010807e7" />
+    <public type="drawable" name="semc_btn_toggle_off_disabled_focused_holo_dark" id="0x0108080b" />
+    <public type="drawable" name="semc_btn_toggle_off_disabled_focused_holo_light" id="0x0108080c" />
+    <public type="drawable" name="semc_btn_toggle_off_disabled_holo_dark" id="0x0108080d" />
+    <public type="drawable" name="semc_btn_toggle_off_disabled_holo_light" id="0x0108080e" />
+    <public type="drawable" name="semc_btn_toggle_off_focused_holo_dark" id="0x0108080f" />
+    <public type="drawable" name="semc_btn_toggle_off_focused_holo_light" id="0x01080810" />
+    <public type="drawable" name="semc_btn_toggle_off_normal_holo_dark" id="0x01080811" />
+    <public type="drawable" name="semc_btn_toggle_off_normal_holo_light" id="0x01080812" />
+    <public type="drawable" name="semc_btn_toggle_off_pressed_holo_dark" id="0x01080813" />
+    <public type="drawable" name="semc_btn_toggle_off_pressed_holo_light" id="0x01080814" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_focused_holo_dark_normal" id="0x01080816" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_focused_holo_light_normal" id="0x01080818" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_dark_colored" id="0x0108081a" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_dark_normal" id="0x0108081b" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_light_colored" id="0x0108081d" />
+    <public type="drawable" name="semc_btn_toggle_on_disabled_holo_light_normal" id="0x0108081e" />
+    <public type="drawable" name="semc_btn_toggle_on_enabled_holo_dark_colored" id="0x0108081f" />
+    <public type="drawable" name="semc_btn_toggle_on_enabled_holo_light_colored" id="0x01080820" />
+    <public type="drawable" name="semc_btn_toggle_on_focused_holo_dark_normal" id="0x01080822" />
+    <public type="drawable" name="semc_btn_toggle_on_focused_holo_light_normal" id="0x01080824" />
+    <public type="drawable" name="semc_btn_toggle_on_normal_holo_dark_normal" id="0x01080826" />
+    <public type="drawable" name="semc_btn_toggle_on_normal_holo_light_normal" id="0x01080828" />
+    <public type="drawable" name="semc_btn_toggle_on_pressed_holo_dark_normal" id="0x0108082a" />
+    <public type="drawable" name="semc_btn_toggle_on_pressed_holo_light_normal" id="0x0108082c" />
+    <public type="drawable" name="semc_quickcontact_badge_overlay_focused" id="0x01080834" />
+    <public type="drawable" name="semc_quickcontact_badge_overlay_normal_dark" id="0x01080835" />
+    <public type="drawable" name="semc_quickcontact_badge_overlay_normal_light" id="0x01080836" />
+    <public type="drawable" name="semc_quickcontact_badge_overlay_pressed" id="0x01080837" />
+    <public type="drawable" name="semc_spinner_16_00" id="0x0108084e" />
+    <public type="drawable" name="semc_spinner_16_01" id="0x0108084f" />
+    <public type="drawable" name="semc_spinner_16_02" id="0x01080850" />
+    <public type="drawable" name="semc_spinner_16_03" id="0x01080851" />
+    <public type="drawable" name="semc_spinner_16_04" id="0x01080852" />
+    <public type="drawable" name="semc_spinner_16_05" id="0x01080853" />
+    <public type="drawable" name="semc_spinner_16_06" id="0x01080854" />
+    <public type="drawable" name="semc_spinner_16_07" id="0x01080855" />
+    <public type="drawable" name="semc_spinner_16_08" id="0x01080856" />
+    <public type="drawable" name="semc_spinner_16_09" id="0x01080857" />
+    <public type="drawable" name="semc_spinner_16_10" id="0x01080858" />
+    <public type="drawable" name="semc_spinner_16_11" id="0x01080859" />
+    <public type="drawable" name="semc_spinner_16_12" id="0x0108085a" />
+    <public type="drawable" name="semc_spinner_16_13" id="0x0108085b" />
+    <public type="drawable" name="semc_spinner_16_14" id="0x0108085c" />
+    <public type="drawable" name="semc_spinner_16_15" id="0x0108085d" />
+    <public type="drawable" name="semc_spinner_16_16" id="0x0108085e" />
+    <public type="drawable" name="semc_spinner_16_17" id="0x0108085f" />
+    <public type="drawable" name="semc_spinner_16_18" id="0x01080860" />
+    <public type="drawable" name="semc_spinner_16_19" id="0x01080861" />
+    <public type="drawable" name="semc_spinner_48_00" id="0x01080862" />
+    <public type="drawable" name="semc_spinner_48_01" id="0x01080863" />
+    <public type="drawable" name="semc_spinner_48_02" id="0x01080864" />
+    <public type="drawable" name="semc_spinner_48_03" id="0x01080865" />
+    <public type="drawable" name="semc_spinner_48_04" id="0x01080866" />
+    <public type="drawable" name="semc_spinner_48_05" id="0x01080867" />
+    <public type="drawable" name="semc_spinner_48_06" id="0x01080868" />
+    <public type="drawable" name="semc_spinner_48_07" id="0x01080869" />
+    <public type="drawable" name="semc_spinner_48_08" id="0x0108086a" />
+    <public type="drawable" name="semc_spinner_48_09" id="0x0108086b" />
+    <public type="drawable" name="semc_spinner_48_10" id="0x0108086c" />
+    <public type="drawable" name="semc_spinner_48_11" id="0x0108086d" />
+    <public type="drawable" name="semc_spinner_48_12" id="0x0108086e" />
+    <public type="drawable" name="semc_spinner_48_13" id="0x0108086f" />
+    <public type="drawable" name="semc_spinner_48_14" id="0x01080870" />
+    <public type="drawable" name="semc_spinner_48_15" id="0x01080871" />
+    <public type="drawable" name="semc_spinner_48_16" id="0x01080872" />
+    <public type="drawable" name="semc_spinner_48_17" id="0x01080873" />
+    <public type="drawable" name="semc_spinner_48_18" id="0x01080874" />
+    <public type="drawable" name="semc_spinner_48_19" id="0x01080875" />
+    <public type="drawable" name="semc_spinner_76_00" id="0x01080876" />
+    <public type="drawable" name="semc_spinner_76_01" id="0x01080877" />
+    <public type="drawable" name="semc_spinner_76_02" id="0x01080878" />
+    <public type="drawable" name="semc_spinner_76_03" id="0x01080879" />
+    <public type="drawable" name="semc_spinner_76_04" id="0x0108087a" />
+    <public type="drawable" name="semc_spinner_76_05" id="0x0108087b" />
+    <public type="drawable" name="semc_spinner_76_06" id="0x0108087c" />
+    <public type="drawable" name="semc_spinner_76_07" id="0x0108087d" />
+    <public type="drawable" name="semc_spinner_76_08" id="0x0108087e" />
+    <public type="drawable" name="semc_spinner_76_09" id="0x0108087f" />
+    <public type="drawable" name="semc_spinner_76_10" id="0x01080880" />
+    <public type="drawable" name="semc_spinner_76_11" id="0x01080881" />
+    <public type="drawable" name="semc_spinner_76_12" id="0x01080882" />
+    <public type="drawable" name="semc_spinner_76_13" id="0x01080883" />
+    <public type="drawable" name="semc_spinner_76_14" id="0x01080884" />
+    <public type="drawable" name="semc_spinner_76_15" id="0x01080885" />
+    <public type="drawable" name="semc_spinner_76_16" id="0x01080886" />
+    <public type="drawable" name="semc_spinner_76_17" id="0x01080887" />
+    <public type="drawable" name="semc_spinner_76_18" id="0x01080888" />
+    <public type="drawable" name="semc_spinner_76_19" id="0x01080889" />
+    <public type="drawable" name="semc_spinner_ab_00" id="0x0108088a" />
+    <public type="drawable" name="semc_spinner_ab_01" id="0x0108088b" />
+    <public type="drawable" name="semc_spinner_ab_02" id="0x0108088c" />
+    <public type="drawable" name="semc_spinner_ab_03" id="0x0108088d" />
+    <public type="drawable" name="semc_spinner_ab_04" id="0x0108088e" />
+    <public type="drawable" name="semc_spinner_ab_05" id="0x0108088f" />
+    <public type="drawable" name="semc_spinner_ab_06" id="0x01080890" />
+    <public type="drawable" name="semc_spinner_ab_07" id="0x01080891" />
+    <public type="drawable" name="semc_spinner_ab_08" id="0x01080892" />
+    <public type="drawable" name="semc_spinner_ab_09" id="0x01080893" />
+    <public type="drawable" name="semc_spinner_ab_10" id="0x01080894" />
+    <public type="drawable" name="semc_spinner_ab_11" id="0x01080895" />
+    <public type="drawable" name="semc_spinner_ab_12" id="0x01080896" />
+    <public type="drawable" name="semc_spinner_ab_13" id="0x01080897" />
+    <public type="drawable" name="semc_spinner_ab_14" id="0x01080898" />
+    <public type="drawable" name="semc_spinner_ab_15" id="0x01080899" />
+    <public type="drawable" name="semc_spinner_ab_16" id="0x0108089a" />
+    <public type="drawable" name="semc_spinner_ab_17" id="0x0108089b" />
+    <public type="drawable" name="semc_spinner_ab_18" id="0x0108089c" />
+    <public type="drawable" name="semc_spinner_ab_19" id="0x0108089d" />
+    <public type="drawable" name="semc_switch_bg_off_disabled_holo_dark" id="0x010808ae" />
+    <public type="drawable" name="semc_switch_bg_off_disabled_holo_light" id="0x010808af" />
+    <public type="drawable" name="semc_switch_bg_off_holo_dark" id="0x010808b0" />
+    <public type="drawable" name="semc_switch_bg_off_holo_light" id="0x010808b1" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_dark_colored" id="0x010808b3" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_dark_normal" id="0x010808b4" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_light_colored" id="0x010808b6" />
+    <public type="drawable" name="semc_switch_bg_on_disabled_holo_light_normal" id="0x010808b7" />
+    <public type="drawable" name="semc_switch_bg_on_holo_dark_colored" id="0x010808b9" />
+    <public type="drawable" name="semc_switch_bg_on_holo_dark_normal" id="0x010808ba" />
+    <public type="drawable" name="semc_switch_bg_on_holo_light_colored" id="0x010808bc" />
+    <public type="drawable" name="semc_switch_bg_on_holo_light_normal" id="0x010808bd" />
+    <public type="drawable" name="semc_switch_bg_on_normal_dark" id="0x010808be" />
+    <public type="drawable" name="semc_switch_bg_on_normal_light" id="0x010808bf" />
+    <public type="drawable" name="semc_switch_thumb_activated_holo_dark" id="0x010808c3" />
+    <public type="drawable" name="semc_switch_thumb_activated_holo_light" id="0x010808c4" />
+    <public type="drawable" name="semc_switch_thumb_disabled_focused_holo_dark" id="0x010808c5" />
+    <public type="drawable" name="semc_switch_thumb_disabled_focused_holo_light" id="0x010808c6" />
+    <public type="drawable" name="semc_switch_thumb_disabled_holo_dark" id="0x010808c7" />
+    <public type="drawable" name="semc_switch_thumb_disabled_holo_light" id="0x010808c8" />
+    <public type="drawable" name="semc_switch_thumb_focused_holo_dark" id="0x010808c9" />
+    <public type="drawable" name="semc_switch_thumb_focused_holo_light" id="0x010808ca" />
+    <public type="drawable" name="semc_switch_thumb_pressed_holo_dark" id="0x010808cb" />
+    <public type="drawable" name="semc_switch_thumb_pressed_holo_light" id="0x010808cc" />
+    <public type="drawable" name="semc_tab_focusframe_holo_normal" id="0x010808cf" />
+    <public type="drawable" name="semc_tab_pressed_full_holo_normal" id="0x010808d4" />
+    <public type="drawable" name="semc_tab_pressed_holo_normal" id="0x010808d5" />
+    <public type="drawable" name="semc_tab_selected_focused_holo_dark" id="0x010808d7" />
+    <public type="drawable" name="semc_tab_selected_focused_holo_light" id="0x010808d8" />
+    <public type="drawable" name="semc_tab_selected_full_glow_holo_colored" id="0x010808d9" />
+    <public type="drawable" name="semc_tab_selected_glow_holo_colored" id="0x010808da" />
+    <public type="drawable" name="semc_tab_selected_holo_dark" id="0x010808dc" />
+    <public type="drawable" name="semc_tab_selected_holo_light" id="0x010808dd" />
+    <public type="drawable" name="semc_tab_selected_pressed_holo_dark" id="0x010808df" />
+    <public type="drawable" name="semc_tab_selected_pressed_holo_light" id="0x010808e0" />
+    <public type="drawable" name="semc_tab_unselected_focused_holo_dark" id="0x010808e2" />
+    <public type="drawable" name="semc_tab_unselected_focused_holo_light" id="0x010808e3" />
+    <public type="drawable" name="semc_tab_unselected_holo_dark" id="0x010808e4" />
+    <public type="drawable" name="semc_tab_unselected_holo_light" id="0x010808e5" />
+    <public type="drawable" name="semc_tab_unselected_pressed_holo_dark" id="0x010808e6" />
+    <public type="drawable" name="semc_tab_unselected_pressed_holo_light" id="0x010808e7" />
+    <public type="drawable" name="ic_contact_picture_180_holo_dark" id="0x010806bd" />
+    <public type="drawable" name="ic_contact_picture_180_holo_light" id="0x010806be" />
+    <public type="drawable" name="ic_contact_picture_holo_dark" id="0x010806bf" />
+    <public type="drawable" name="ic_contact_picture_holo_light" id="0x010806c0" />
+    <public type="drawable" name="ic_lockscreen_alarm" id="0x010806c2" />
+    <public type="drawable" name="ic_lockscreen_answer_active" id="0x010806c3" />
+    <public type="drawable" name="ic_lockscreen_answer_focused" id="0x010806c4" />
+    <public type="drawable" name="ic_lockscreen_answer_normal" id="0x010806c5" />
+    <public type="drawable" name="ic_lockscreen_camera_activated" id="0x010806c6" />
+    <public type="drawable" name="ic_lockscreen_camera_normal" id="0x010806c7" />
+    <public type="drawable" name="ic_lockscreen_chevron_down" id="0x010806c8" />
+    <public type="drawable" name="ic_lockscreen_chevron_left" id="0x010806c9" />
+    <public type="drawable" name="ic_lockscreen_chevron_right" id="0x010806ca" />
+    <public type="drawable" name="ic_lockscreen_chevron_up" id="0x010806cb" />
+    <public type="drawable" name="ic_lockscreen_decline_activated" id="0x010806cc" />
+    <public type="drawable" name="ic_lockscreen_decline_focused" id="0x010806cd" />
+    <public type="drawable" name="ic_lockscreen_decline_normal" id="0x010806ce" />
+    <public type="drawable" name="ic_lockscreen_emergencycall_normal" id="0x010806cf" />
+    <public type="drawable" name="ic_lockscreen_emergencycall_pressed" id="0x010806d0" />
+    <public type="drawable" name="ic_lockscreen_forgotpassword_normal" id="0x010806d1" />
+    <public type="drawable" name="ic_lockscreen_forgotpassword_pressed" id="0x010806d2" />
+    <public type="drawable" name="ic_lockscreen_google_activated" id="0x010806d3" />
+    <public type="drawable" name="ic_lockscreen_google_focused" id="0x010806d4" />
+    <public type="drawable" name="ic_lockscreen_google_normal" id="0x010806d5" />
+    <public type="drawable" name="ic_lockscreen_handle_normal" id="0x010806d6" />
+    <public type="drawable" name="ic_lockscreen_ime" id="0x010806d7" />
+    <public type="drawable" name="ic_lockscreen_player_background" id="0x010806d8" />
+    <public type="drawable" name="ic_lockscreen_puk" id="0x010806d9" />
+    <public type="drawable" name="ic_lockscreen_silent_activated" id="0x010806da" />
+    <public type="drawable" name="ic_lockscreen_silent_focused" id="0x010806db" />
+    <public type="drawable" name="ic_lockscreen_silent_normal" id="0x010806dc" />
+    <public type="drawable" name="ic_lockscreen_sim" id="0x010806dd" />
+    <public type="drawable" name="ic_lockscreen_soundon_activated" id="0x010806de" />
+    <public type="drawable" name="ic_lockscreen_soundon_focused" id="0x010806df" />
+    <public type="drawable" name="ic_lockscreen_soundon_normal" id="0x010806e0" />
+    <public type="drawable" name="ic_lockscreen_text_activated" id="0x010806e1" />
+    <public type="drawable" name="ic_lockscreen_text_focusde" id="0x010806e2" />
+    <public type="drawable" name="ic_lockscreen_text_normal" id="0x010806e3" />
+    <public type="drawable" name="ic_lockscreen_unlock_activated" id="0x010806e4" />
+    <public type="drawable" name="ic_lockscreen_unlock_normal" id="0x010806e5" />
+    <public type="drawable" name="ic_lockscreens_now_button" id="0x010806e6" />
+    <public type="drawable" name="ic_notification_media_route" id="0x010806ed" />
+    <public type="drawable" name="ic_perm_group_accounts" id="0x010806ee" />
+    <public type="drawable" name="ic_perm_group_app_info" id="0x010806ef" />
+    <public type="drawable" name="ic_perm_group_audio_settings" id="0x010806f0" />
+    <public type="drawable" name="ic_perm_group_bluetooth" id="0x010806f1" />
+    <public type="drawable" name="ic_perm_group_bookmarks" id="0x010806f2" />
+    <public type="drawable" name="ic_perm_group_calendar" id="0x010806f3" />
+    <public type="drawable" name="ic_perm_group_camera" id="0x010806f4" />
+    <public type="drawable" name="ic_perm_group_device_alarms" id="0x010806f5" />
+    <public type="drawable" name="ic_perm_group_display" id="0x010806f6" />
+    <public type="drawable" name="ic_perm_group_effects_battery" id="0x010806f7" />
+    <public type="drawable" name="ic_perm_group_location" id="0x010806f8" />
+    <public type="drawable" name="ic_perm_group_messages" id="0x010806f9" />
+    <public type="drawable" name="ic_perm_group_microphone" id="0x010806fa" />
+    <public type="drawable" name="ic_perm_group_network" id="0x010806fb" />
+    <public type="drawable" name="ic_perm_group_personal_info" id="0x010806fc" />
+    <public type="drawable" name="ic_perm_group_phone_calls" id="0x010806fd" />
+    <public type="drawable" name="ic_perm_group_screenlock" id="0x010806fe" />
+    <public type="drawable" name="ic_perm_group_shortrange_network" id="0x010806ff" />
+    <public type="drawable" name="ic_perm_group_social_info" id="0x01080700" />
+    <public type="drawable" name="ic_perm_group_status_bar" id="0x01080701" />
+    <public type="drawable" name="ic_perm_group_storage" id="0x01080702" />
+    <public type="drawable" name="ic_perm_group_sync_settings" id="0x01080703" />
+    <public type="drawable" name="ic_perm_group_system_clock" id="0x01080704" />
+    <public type="drawable" name="ic_perm_group_system_tools" id="0x01080705" />
+    <public type="drawable" name="ic_perm_group_user_dictionary" id="0x01080706" />
+    <public type="drawable" name="ic_perm_group_user_dictionary_write" id="0x01080707" />
+    <public type="drawable" name="ic_perm_group_voicemail" id="0x01080708" />
+    <public type="drawable" name="ic_perm_group_wallpapewr" id="0x01080709" />
+    <public type="drawable" name="ic_suggestions_add" id="0x0108070a" />
+    <public type="drawable" name="ic_suggestions_delete" id="0x0108070b" />
+    <public type="drawable" name="lockscreen_protection_pattern" id="0x0108070c" />
+    <public type="drawable" name="numberpicker_down_disabled_focused_holo_dark" id="0x01080712" />
+    <public type="drawable" name="numberpicker_down_disabled_focused_holo_light" id="0x01080713" />
+    <public type="drawable" name="numberpicker_down_disabled_holo_dark" id="0x01080714" />
+    <public type="drawable" name="numberpicker_down_disabled_holo_light" id="0x01080715" />
+    <public type="drawable" name="numberpicker_down_focused_holo_dark" id="0x01080716" />
+    <public type="drawable" name="numberpicker_down_focused_holo_light" id="0x01080717" />
+    <public type="drawable" name="numberpicker_down_longpressed_holo_dark" id="0x01080718" />
+    <public type="drawable" name="numberpicker_down_longpressed_holo_light" id="0x01080719" />
+    <public type="drawable" name="numberpicker_down_normal_holo_dark" id="0x0108071a" />
+    <public type="drawable" name="numberpicker_down_normal_holo_light" id="0x0108071b" />
+    <public type="drawable" name="numberpicker_down_pressed_holo_dark" id="0x0108071c" />
+    <public type="drawable" name="numberpicker_down_pressed_holo_light" id="0x0108071d" />
+    <public type="drawable" name="numberpicker_up_disabled_focused_holo_dark" id="0x0108071e" />
+    <public type="drawable" name="numberpicker_up_disabled_focused_holo_light" id="0x0108071f" />
+    <public type="drawable" name="numberpicker_up_disabled_holo_dark" id="0x01080720" />
+    <public type="drawable" name="numberpicker_up_disabled_holo_light" id="0x01080721" />
+    <public type="drawable" name="numberpicker_up_focused_holo_dark" id="0x01080722" />
+    <public type="drawable" name="numberpicker_up_focused_holo_light" id="0x01080723" />
+    <public type="drawable" name="numberpicker_up_longpressed_holo_dark" id="0x01080724" />
+    <public type="drawable" name="numberpicker_up_longpressed_holo_light" id="0x01080725" />
+    <public type="drawable" name="numberpicker_up_normal_holo_dark" id="0x01080726" />
+    <public type="drawable" name="numberpicker_up_normal_holo_light" id="0x01080727" />
+    <public type="drawable" name="numberpicker_up_pressed_holo_dark" id="0x01080728" />
+    <public type="drawable" name="numberpicker_up_pressed_holo_light" id="0x01080729" />
+    <public type="drawable" name="spinner_ab_activated_holo_dark" id="0x0108090f" />
+    <public type="drawable" name="spinner_ab_activated_holo_light" id="0x01080910" />
+    <public type="drawable" name="spinner_activated_holo_dark" id="0x01080911" />
+    <public type="drawable" name="spinner_activated_holo_light" id="0x01080912" />
+    <public type="drawable" name="spinner_disabled_holo" id="0x01080913" />
+    <public type="drawable" name="spinner_normal_holo" id="0x01080914" />
+    <public type="drawable" name="switch_thumb_holo_light_v2" id="0x01080920" />
     <public type="drawable" name="APKTOOL_DUMMY_02ca" id="0x010802ca" />
     <public type="drawable" name="APKTOOL_DUMMY_02ce" id="0x010802ce" />
     <public type="drawable" name="APKTOOL_DUMMY_02cf" id="0x010802cf" />
@@ -6921,6 +7564,24 @@
     <public type="layout" name="zoom_container" id="0x010900cd" />
     <public type="layout" name="zoom_controls" id="0x010900ce" />
     <public type="layout" name="zoom_magnify" id="0x010900cf" />
+    <public type="layout" name="semc_alert_dialog_holo" id="0x010900d0" />
+    <public type="layout" name="semc_alert_dialog_holo_dark" id="0x010900d1" />
+    <public type="layout" name="semc_alert_dialog_holo_light" id="0x010900d2" />
+    <public type="layout" name="semc_dialog_custom_title_holo" id="0x010900d3" />
+    <public type="layout" name="semc_dialog_custom_title_holo_dark" id="0x010900d4" />
+    <public type="layout" name="semc_dialog_custom_title_holo_light" id="0x010900d5" />
+    <public type="layout" name="semc_dialog_title_holo" id="0x010900d6" />
+    <public type="layout" name="semc_dialog_title_holo_dark" id="0x010900d7" />
+    <public type="layout" name="semc_dialog_title_holo_light" id="0x010900d8" />
+    <public type="layout" name="semc_dialog_title_icons_holo" id="0x010900d9" />
+    <public type="layout" name="semc_dialog_title_icons_holo_dark" id="0x010900da" />
+    <public type="layout" name="semc_dialog_title_icons_holo_light" id="0x010900db" />
+    <public type="layout" name="semc_number_picker_with_selector_wheel_dark" id="0x010900dc" />
+    <public type="layout" name="semc_number_picker_with_selector_wheel_light" id="0x010900dd" />
+    <public type="layout" name="semc_preference_dialog" id="0x010900de" />
+    <public type="layout" name="semc_select_dialog_singlechoice_holo_no_animation" id="0x010900df" />
+    <public type="layout" name="semc_tab_indicator_holo_dark" id="0x010900e0" />
+    <public type="layout" name="semc_tab_indicator_holo_light" id="0x010900e1" />
     <public type="layout" name="status_bar_latest_event_ticker" id="0x010900a6" />
     <public type="layout" name="status_bar_latest_event_ticker_large_icon" id="0x010900a7" />
     <public type="layout" name="icon_menu_layout" id="0x0109004a" />
@@ -7034,6 +7695,22 @@
     <public type="anim" name="wallpaper_open_enter" id="0x010a006b" />
     <public type="anim" name="wallpaper_open_exit" id="0x010a006c" />
     <public type="anim" name="window_move_from_decor" id="0x010a006d" />
+    <public type="anim" name="semc_dialog_popup_enter" id="0x010a006e" />
+    <public type="anim" name="semc_dialog_popup_exit" id="0x010a006f" />
+    <public type="anim" name="somc_activity_close_enter" id="0x010a0070" />
+    <public type="anim" name="somc_activity_close_exit" id="0x010a0071" />
+    <public type="anim" name="somc_activity_open_enter" id="0x010a0072" />
+    <public type="anim" name="somc_activity_open_exit" id="0x010a0073" />
+    <public type="anim" name="somc_dialog_popup_enter" id="0x010a0074" />
+    <public type="anim" name="somc_dialog_popup_exit" id="0x010a0075" />
+    <public type="anim" name="somc_input_method_enter" id="0x010a0076" />
+    <public type="anim" name="somc_input_method_exit" id="0x010a0077" />
+    <public type="anim" name="somc_task_close_enter" id="0x010a0078" />
+    <public type="anim" name="somc_task_close_exit" id="0x010a0079" />
+    <public type="anim" name="somc_task_open_enter" id="0x010a007a" />
+    <public type="anim" name="somc_task_open_exit" id="0x010a007b" />
+    <public type="anim" name="somc_toast_enter" id="0x010a007c" />
+    <public type="anim" name="somc_toast_exit" id="0x010a007d" />
     <public type="animator" name="fade_in" id="0x010b0000" />
     <public type="animator" name="fade_out" id="0x010b0001" />
     <public type="animator" name="fragment_close_enter" id="0x010b0002" />

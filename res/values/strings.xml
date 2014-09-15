@@ -1799,4 +1799,8 @@ Listening at high volume for long periods may damage your hearing."</string>
     <string name="webviewchromium_profiler_stopped_toast">Profiler finished. Results are in %1$s.</string>
     <string name="webviewchromium_profiler_no_storage_toast">"Can't start profiler because external storage is not ready"</string>
     <string name="webviewchromium_profiler_error_toast">Failed to start profiler</string>
+    <string name="permlab_smallapp">Small application overlay</string>
+    <string name="permdesc_smallapp">Allows running movable small applications on top of other applications.</string>
+    <string name="permlab_taskSwitcherPluginView">Provide plugin-view to the task-switcher</string>
+    <string name="permdesc_taskSwitcherPluginView">Allows the application to provide a plugin-view to the task-switcher</string>
 </resources>

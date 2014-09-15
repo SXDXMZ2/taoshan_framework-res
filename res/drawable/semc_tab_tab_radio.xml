@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator1" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator2" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator3" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator4" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator5" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator6" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator7" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator8" />
+    <item android:duration="60" android:drawable="@drawable/semc_btn_radio_on_holo_light_indicator9" />
+</animation-list>

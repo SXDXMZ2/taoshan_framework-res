@@ -508,6 +508,10 @@
     <permission android:label="@string/permlab_writeThemes" android:name="android.permission.WRITE_THEMES" android:protectionLevel="signature" android:description="@string/permdesc_writeThemesDesc" />
     <permission android:label="@string/permlab_useHardwareFramework" android:name="android.permission.HARDWARE_ABSTRACTION_ACCESS" android:protectionLevel="signature" android:description="@string/permdesc_useHardwareFramework" />
     <uses-permission android:name="android.permission.CONFIRM_FULL_BACKUP" />
+    <permission android:name="com.sony.smallapp.permission.CONTROL_SMALLAPP" androidrotectionLevel="system|signature" />
+    <permission android:label="@string/permlab_smallapp" android:name="com.sony.smallapp.permission.SMALLAPP" android:description="@string/permdesc_smallapp" androidrotectionLevel="dangerous" />
+    <permission android:label="@string/permlab_taskSwitcherPluginView" android:name="com.sonymobile.permission.TASK_SWITCHER_PLUGIN_VIEW" android:description="@string/permdesc_taskSwitcherPluginView" androidrotectionLevel="signatureOrSystem" />
+    <permission android:name="com.sonymobile.permission.ACCESS_BEACON_MANAGER" androidrotectionLevel="system|signature" />
     <application android:label="@string/android_system_label" android:icon="@drawable/ic_launcher_android" android:allowClearUserData="false" android:hasCode="false" android:persistent="true" android:process="system" android:backupAgent="com.android.server.SystemBackupAgent" android:killAfterRestore="false" android:supportsRtl="true">
         <activity android:theme="@style/Theme.Holo.Dialog.Alert" android:name="com.android.internal.app.ChooserActivity" android:multiprocess="true" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true">
             <intent-filter>

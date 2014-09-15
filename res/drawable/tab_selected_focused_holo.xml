@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/semc_tab_selected_glow_holo_colored" />
+    <item android:drawable="@drawable/semc_tab_pressed_full_holo_normal" />
+</layer-list>

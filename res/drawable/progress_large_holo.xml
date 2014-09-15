@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list
+<animation-list android:oneshot="false"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <rotate android:drawable="@drawable/spinner_76_outer_holo" android:fromDegrees="0.0" android:toDegrees="1080.0" android:pivotX="50.0%" android:pivotY="50.0%" />
-    </item>
-    <item>
-        <rotate android:drawable="@drawable/spinner_76_inner_holo" android:fromDegrees="720.0" android:toDegrees="0.0" android:pivotX="50.0%" android:pivotY="50.0%" />
-    </item>
-</layer-list>
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_00" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_01" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_02" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_03" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_04" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_05" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_06" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_07" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_08" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_09" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_10" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_11" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_12" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_13" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_14" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_15" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_16" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_17" />
+    <item android:duration="50" android:drawable="@drawable/semc_spinner_76_18" />
+    <item android:duration="250" android:drawable="@drawable/semc_spinner_76_19" />
+</animation-list>
