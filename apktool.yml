@@ -1,0 +1,9 @@
+version: 1.5.1PR2.
+apkFileName: framework-res.apk
+isFrameworkApk: true
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: android
+  orig_package: android
